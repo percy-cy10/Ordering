@@ -58,7 +58,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                             </strong>
                         </td>
                         <td style="font-size: 20px;" class="text-primary">
-                            <?php echo ': &#8369 '.number_format($singlemeal->PRICE,2); ?> 
+                            <?php echo ': S/. '.number_format($singlemeal->PRICE,2); ?> 
                         </td>
                     </tr>
 
