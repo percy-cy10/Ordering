@@ -37,7 +37,7 @@
 <div id="wrapper">
 <div id="smain">
  <?php check_message(); ?> 
-<a href="index.php?view=menu&rem=Dine-In"><i class="fa fa-cutlery"></i><br>Dine In</a>   
-<a href="index.php?view=menu&rem=Take-Out"><i class="fa fa-truck icon-2x"></i><br>Take Out</a> 
+<a href="index.php?view=menu&rem=Dine-In"><i class="fa fa-cutlery"></i><br>Cenar en</a>   
+<a href="index.php?view=menu&rem=Take-Out"><i class="fa fa-truck icon-2x"></i><br>Sacar</a> 
 </div>
 </div>
