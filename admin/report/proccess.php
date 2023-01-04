@@ -65,18 +65,18 @@ header("Expires: 0");
                 $viewTitle = mysql_fetch_assoc($res);
                 echo $viewTitle['Title'];
             ?></h2>
-    <h2 align="center">Sales Report</h2>
+    <h2 align="center">Reporte de ventas</h2>
     <p  style="font-size:25px;text-align: center;">
-    Inclusive Dates <?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> | <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
+    Fechas Inclusivas<?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> | <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
     
         <table class="tbl mytblprint" border="1" style="width: 900px;padding: 0px;margin: 0px; text-align: center; "  >
         <thead>
             <tr style="font-weight: bold; padding: 5px;border: 1px #eee solid;">  
-                <td style="font-size: 20px; width: 525px;">Order Number</td>
-                <td style="font-size: 20px; width: 150px;">Total bill</td>
-                <td style="font-size: 20px; width: 150px; ">Discount (20%)</td>
+                <td style="font-size: 20px; width: 525px;">Numero de Orden</td>
+                <td style="font-size: 20px; width: 150px;">Cuenta total</td>
+                <td style="font-size: 20px; width: 150px; ">Descuento (20%)</td>
                 <td>Senior ID</td>
-                <td style="font-size: 20px; width: 150px;">Total Amount</td>
+                <td style="font-size: 20px; width: 150px;">Cantidad total</td>
             </tr>
 
         </thead>

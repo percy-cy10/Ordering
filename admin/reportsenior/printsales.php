@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Sales Report</title>
+<title>Reporte de ventas</title>
  
 
  <!-- Bootstrap Core CSS -->
@@ -54,8 +54,8 @@
 <body onload="window.print();"> 
 <div id="wrap">
 <div id="container">
-    <div class="page-header"><h1 align="center">Plazacafe</h1>
-    <h4 align="center">Sales Report with Senior</h4>
+    <div class="page-header"><h1 align="center">Foodsy</h1>
+    <h4 align="center">Reporte de Ventas con Senior</h4>
     <p  style="font-size:15px;text-align: center;">
     Inclusive Dates <?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
     <center>
@@ -64,8 +64,8 @@
             <tr bgcolor="skyblue" style="font-weight: bold; font-size: 15px;">  
                 <!-- <td width="150">Order#</td> -->
                 <td >Description</td>
-                <td width="100" align="center">Price</td> 
-                <td width="100" align="center">Quantity</td>
+                <td width="100" align="center">Precio</td> 
+                <td width="100" align="center">Cantidad</td>
                 <td width="100" align="center">Sub-total</td>
             </tr>
 
