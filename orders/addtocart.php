@@ -19,9 +19,9 @@
     }
 ?> 
 <table id="table" class="table table-responsive">
-  <th>Meal</th>
-  <th width="80">Price</th>
-  <th width="80">Qty</th>
+  <th>Comida</th>
+  <th width="80">Precio</th>
+  <th width="80">Cantidad</th>
   <th width="80">Sub-total</th>
   <th width="20"></th>
    <?php
@@ -65,7 +65,7 @@
 
                <div id="placeorder">
               <div class="row" >
-                <label class="col-xs-2"  style="height: 30px;text-align:  center; font-size: 12px" >Table No.</label>
+                <label class="col-xs-2"  style="height: 30px;text-align:  center; font-size: 12px" >N° Tabla</label>
                 <div class="col-xs-2"> 
                   <select style="font-size:15px;" name="tableno" id="tableno"   >  
 
@@ -92,8 +92,8 @@
 
                    <div class="col-xs-2"> 
                   <select style="font-size:15px;"  name="REMARKS" id="REMARKS"   >  
-                    <option value="Dine-In">Dine In</option>
-                    <option value="Take-Out">Take Out</option>
+                    <option value="Dine-In">Cenar en</option>
+                    <option value="Take-Out">Sacar</option>
                   </select>
                 </div> 
                 <div class="col-xs-2">

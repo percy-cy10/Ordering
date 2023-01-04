@@ -40,16 +40,20 @@
     	<div class="col-lg-12">
     		<div class="row">
     			<div class="page-header">
+<<<<<<< Updated upstream
 					Lista de pedidos 
+=======
+    				Lista de Ordenes
+>>>>>>> Stashed changes
     			</div> 
                     <div id="reload" class="scrollorder">
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr> 
-                                    <th>Order No.</th> 
-                                    <th>Table No.</th>
-                                    <th>Cater</th>
-                                    <th>Status</th>
+                                    <th>N° de Orden</th> 
+                                    <th>N° de Tabla.</th>
+                                    <th>Proveer</th>
+                                    <th>Estado</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -84,10 +88,10 @@
     	<!-- order details -->
     		<div class="row">
     			<div   style="font-size: 24px;font-weight: bold;margin-top: 90px;">
-    				Order Details 
+    				Orden de Detalles
     				<small><?php echo isset($_GET['tableno']) ? " for Table Number ". $_GET['tableno'] : "" ?> <?php echo isset($_GET['rem']) ? "/ ". $_GET['rem'] : "" ?></small>
                     <span style="font-size: 15px;"><?php echo isset($_GET['orderno']) ?  '<a href="addmeal.php?view=addmeal&orderno='.$_GET['orderno'].'&tableno='.$_GET['tableno'].'&rem='.$remarks.'" data-toggle="lightbox" style="text-decoration: none;" class="btn btn-sm btn-primary" data-title="<b>Add Meal</b>">Add Meal</a>' : ''; ?></span>
-    				<p style="text-align: right;font-size: 19px; margin-left: 50px; margin-bottom: 5px;">Order Number:<b style="text-decoration: underline;"> <?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?></b>
+    				<p style="text-align: right;font-size: 19px; margin-left: 50px; margin-bottom: 5px;">Numero de Orden<b style="text-decoration: underline;"> <?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?></b>
     					<input type="hidden" name="ORDERNO" id="ORDERNO"   value="<?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?>">
                         <input type="hidden" name="tableno" id="tableno"   value="<?php echo isset($_GET['tableno']) ?  $_GET['tableno'] : "NONE" ?>">
                          <input type="hidden" name="REMARKS" id="REMARKS"   value="<?php echo isset($_GET['rem']) ?  $_GET['rem'] : "" ?>">
@@ -98,11 +102,11 @@
     			<table id="table" class="table table-hover" style="font-size: 12px" >
     				<thead style="font-size: 15px;">
     					<tr> 
-    					    <th>Meal</th>
-							<th width="60">Price</th>
-							<th style="text-align: center;" width="50">Qty</th>
+    					    <th>Comidas</th>
+							<th width="60">Precio</th>
+							<th style="text-align: center;" width="50">Cantidad</th>
 							<th width="100">Sub-total</th>
-							<th style="text-align: center;" width="30">Action</th>
+							<th style="text-align: center;" width="30">Acción</th>
     					</tr> 
     				</thead>
     				<tbody>
