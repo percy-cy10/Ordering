@@ -39,10 +39,10 @@ require_once("../include/initialize.php");
     <form action="" method="POST">
       <h1>Login</h1>
       <div>
-        <input type="text" placeholder="Username" required="" id="username"  name="user_email" />
+        <input type="text" placeholder="Usuario" required="" id="username"  name="user_email" />
       </div>
       <div>
-        <input type="password" placeholder="Password" required="" id="password" name="user_pass" />
+        <input type="password" placeholder="Contraseña" required="" id="password" name="user_pass" />
       </div>
       <div>
         <input type="submit" name="btnLogin" value="Log in" />
@@ -52,7 +52,7 @@ require_once("../include/initialize.php");
     <div class="button">
       <a><?php
                 $sql = "SELECT * FROM `tbltitle` WHERE TItleID=1";
-                 $mydb->setQuery($sql);
+                $mydb->setQuery($sql);
                 $viewTitle = $mydb->loadSingleResult();
                 echo $viewTitle->Title;
             ?></a>
