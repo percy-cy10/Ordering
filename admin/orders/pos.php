@@ -47,7 +47,7 @@ input[type="checkbox"]{
     	<div class="col-lg-12">
     		<div class="row">
     			<div class="page-header">
-    				Lista de pedidos <a href="addorder.php" class="btn-primary btn btn-s" data-toggle="lightbox" data-title="New Order"><i class="fa fa-plus-circle"></i> New Order</a>
+    				Lista de pedidos <a href="addorder.php" class="btn-primary btn btn-s" data-toggle="lightbox" data-title="New Order"><i class="fa fa-plus-circle"></i> Nuevo Orden</a>
     			</div> 
                     <div id="reload" class="scrollorder">
                         <table class="table table-bordered table-hover">
@@ -91,7 +91,7 @@ input[type="checkbox"]{
     	<!-- order details -->
     		<div class="row">
     			<div   style="font-size: 24px;font-weight: bold;margin-top: 10px;">
-    				Order Details 
+                Detalles del pedido
     				<small><?php echo isset($_GET['tableno']) ? " for Table Number: ". $_GET['tableno'] : "" ?> <?php echo isset($_GET['rem']) ? "| ". $_GET['rem'] : "" ?></small>
                     <span><?php echo isset($_GET['orderno']) ?  '<a href="addmeal.php?view=addmeal&orderno='.$_GET['orderno'].'&tableno='.$_GET['tableno'].'&rem='.$remarks.'" data-toggle="lightbox" class="btn btn-s btn-primary " data-title="<b>Add Meal</b>"><i class="fa fa-plus-circle"> Add Meal</i></a>' : ''; ?></span>
     				<p style="text-align: right;font-size: 20px;">Order Number:<b style="text-decoration: underline;"> <?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?></b>
@@ -107,7 +107,7 @@ input[type="checkbox"]{
     					<tr style="font-size: 15px;"> 
     					    <th>Comida</th>
 							<th width="60">Precio</th>
-							<th width="50" style="text-align: center;">Qty</th>
+							<th width="50" style="text-align: center;">Cantidad</th>
 							<th width="90">Monto</th>
 							<th width="30">Accion</th>
     					</tr> 
@@ -188,7 +188,7 @@ input[type="checkbox"]{
     				</thead>
     			</table>
     			<div>
-    				<button target="_blank" type="submit" name="save" class="btn btn-primary btn-lg fa fa-save" id="save"> Save & Print</button>
+    				<button target="_blank" type="submit" name="save" class="btn btn-primary btn-lg fa fa-save" id="save"> Guardar e imprimir</button>
                     <a target="_blank" href="tempreceipt.php?orderno=<?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?>&tableno=<?php echo isset($_GET['tableno']) ?  $_GET['tableno'] : "NONE" ?>" class="btn btn-default btn-lg fa fa-print"> <b>Imprimir para cocinar</b></a>
     			</div>
     		</div> 

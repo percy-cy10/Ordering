@@ -66,9 +66,9 @@
 
                                 foreach ($cur as $result) {
                                 $tableno = $result->TABLENO;
-                             }
-                         }
-                             ?>
+                            }
+                        }
+                ?>
                       <tr style="text-align: center;">
                             <td colspan="2">N° de Tabla<?php echo $tableno; ?> | </td>
                             <td>N° Orden<?php echo $orderno; ?></td>
@@ -92,7 +92,7 @@
                                 # code...
                                 $orderno = $_GET['orderno'];
                                 $query = "SELECT * FROM `tblorders` o , `tblusers` u
-                                 WHERE  o.`USERID` = u.`USERID` AND `STATUS`='Pending' AND `ORDERNO` ='".$orderno."'";
+                                WHERE  o.`USERID` = u.`USERID` AND `STATUS`='Pending' AND `ORDERNO` ='".$orderno."'";
                                 $mydb->setQuery($query);
                                 $cur = $mydb->loadResultList();
 
@@ -113,12 +113,12 @@
                         ?>  
  
                 <!-- summary -->  
-               
+            
                         <tr> 
                             <th colspan="3" style="text-align:right;">Total</th>
                             <th  width="100" style="text-align: center;"><?php echo number_format($total,2); ?></th>
                         </tr>
-                 </tbody>
+                </tbody>
                 </table>
             <!-- end summary -->
         

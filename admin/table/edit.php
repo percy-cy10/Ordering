@@ -11,18 +11,18 @@
 ?> 
  <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">
         <fieldset>
-            <h1 class="page-header">Update Table Number</h1>
+            <h1 class="page-header">Actualizar número de tabla</h1>
                       
 
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="TABLENO">Table No.:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="TABLENO">N° Tabla:</label>
 
                       <div class="col-md-2">
                        <input  id="TABLEID" name="TABLEID"   type="HIDDEN" value="<?php echo $stables->TABLEID; ?>">
                          <input style="font-size: 20px;" class="form-control input-lg" id="TABLENO" name="TABLENO" type="text" value="<?php echo $stables->TABLENO; ?>" required>
                       </div>
-                      <div><button class="btn btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button></div>
+                      <div><button class="btn btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button></div>
                     </div>
                   </div>
 

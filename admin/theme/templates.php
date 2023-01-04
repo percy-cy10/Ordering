@@ -89,7 +89,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Navegación de palanca</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -157,7 +157,7 @@
 <?php if ($_SESSION['ADMIN_ROLE']=='Administrator'  || $_SESSION['ADMIN_ROLE']=='Cashier') { ?> 
                     <li>
                       <form target="_blank" action="<?php echo web_root;?>admin/orders/reprint.php" method="POST"> 
-                        <label style="margin-left: 30px;color: #fff;margin-top: 5px;">Pedido No.</label><br/>
+                        <label style="margin-left: 30px;color: #fff;margin-top: 5px;"> No. de Pedido</label><br/>
                         <input class="form-control" type="" name="orderno" style="width: 120px; color: black; margin-left: 10px;margin-bottom: 5px; font-weight: bold; font-size: 15px; text-align: center;">
                         <input type="submit" name="Re-print" value="Re-print OR" style="width: 120px;margin-left: 10px; font-size: 15px;" class="btn btn-primary btn-sm">
                       </form>

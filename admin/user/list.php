@@ -7,7 +7,7 @@
 
 <div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">List of Users  <a href="index.php?view=add" class="btn btn-primary btn-s">  <i class="fa fa-plus-circle fw-fa"></i> Add User</a>  </h1>
+            <h1 class="page-header">Lista de usuarios<a href="index.php?view=add" class="btn btn-primary btn-s">  <i class="fa fa-plus-circle fw-fa"></i> Add User</a>  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -17,11 +17,11 @@
 				
 				  <thead>
 				  	<tr>
-				  		<th width="12%" style="font-size: 15px; text-align: center;">Account ID</th>
+				  		<th width="12%" style="font-size: 15px; text-align: center;">ID de la cuenta</th>
 				  		<th style="font-size: 15px;">
 				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
-				  		Account Name</th>
-				  		<th style="font-size: 15px;">Username</th>
+						   Nombre de la cuenta</th>
+				  		<th style="font-size: 15px;">Nombre de usuario</th>
 				  		<th style="font-size: 15px;">Role</th>
 				  		<th style="font-size: 15px; text-align: center;" width="20%" >Action</th>
 				 

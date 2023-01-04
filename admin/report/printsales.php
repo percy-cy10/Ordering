@@ -59,17 +59,17 @@
                 echo $viewTitle['Title'];
             ?></title>
  </h1>
-    <h4 align="center">Sales Report</h4>
+    <h4 align="center">Reporte de ventas</h4>
     <p  style="font-size:13px;text-align: center;">
-    Inclusive Dates <?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
+    Fechas Inclusivas<?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
     
         <table class="tbl mytblprint" style="font-size: 10px; width: 700px;padding: 0px;margin: 0px;  "  >
         <thead>
             <tr style="font-weight: bold; font-size: 12px;padding: 5px;border: 1px #eee solid;">  
-                 <td>Order No</td>
-                <td>Paid Amount</td>
-                <td>Senior Discount</td>
-                <td>Senior ID</td>
+                 <td>N º de Orden</td>
+                <td>Monto de pago</td>
+                <td>Descuento de mayores</td>
+                <td>Identificación de la tercera edad</td>
                 <td>Subtotal</td>
             </tr>
 
@@ -163,9 +163,9 @@
    <table class="tbl mytblprint" style="font-size: 10px; width: 700px;padding: 0px;margin: 0px;  "  >
         <thead>
             <tr style="font-weight: bold; font-size: 12px;padding: 5px;border: 1px #eee solid;">  
-                 <td>Order No</td>
-                <td>Paid Amount</td>
-                <td>Senior Discount</td>
+                 <td>No. de Orden</td>
+                <td>Monto de pago</td>
+                <td>Descuento de mayores</td>
                 <td>Subtotal</td>
             </tr>
 
@@ -258,9 +258,9 @@
    <table class="tbl mytblprint" style="font-size: 10px; width: 700px;padding: 0px;margin: 0px;  "  >
         <thead>
             <tr style="font-weight: bold; font-size: 12px;padding: 5px;border: 1px #eee solid;">  
-                 <td>Order No</td>
-                <td>Paid Amount</td>
-                <td>Senior Discount</td>
+                <td>No. de Orden</td>
+                <td>Monto de pago</td>
+                <td>Descuento de mayores</td>
                 <td>Subtotal</td>
             </tr>
 

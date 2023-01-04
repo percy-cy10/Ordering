@@ -57,15 +57,15 @@
             ?></title>
  </h1></div>
 	<div id="wrap">
-	<h3 align="center">Sales Report</h3>
+	<h3 align="center">Reporte de ventas</h3>
     <p  style="font-size:15px;text-align: center;">
-    Dates: <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "Month-Day-Year" ?> | <?php echo isset($_POST['date_pickerfrom']) ? " To : " .$_POST['date_pickerto'] : "Month-Day-Year" ?></p></div>
+    Fechas: <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "Month-Day-Year" ?> | <?php echo isset($_POST['date_pickerfrom']) ? " To : " .$_POST['date_pickerto'] : "Month-Day-Year" ?></p></div>
 		<div class="wrap-content">
-			<label class="item" >Date From:</label>
+			<label class="item" >Fecha de:</label>
 			<input id="datefrom" class="item date_pickerfrom validate_date" type="" name="date_pickerfrom" autocomplete="off" placeholder="Month-Day-Year" required>
 		</div>
 		<div class="wrap-content">
-			<label class="item" >Date To:</label>
+			<label class="item" >Fecha hasta:</label>
 			<input id="dateto" class="item date_pickerto validate_date" type="" name="date_pickerto" autocomplete="off" placeholder="Month-Day-Year" required> 
 		</div>
 		<div class="wrap-content"> 
@@ -80,8 +80,8 @@
 		<thead>
 			<tr style="font-weight: bold; font-size:12px;">
 				<td colspan="5" >
-					<a href="#" id="expandAllTasks"><i class="btn btn-primary btn-xs">Expand All</i></a>
-				    | <a href="#" id="expandable"><i class="btn btn-primary btn-xs">Collapse All</i></a>
+					<a href="#" id="expandAllTasks"><i class="btn btn-primary btn-xs">Expandir todo</i></a>
+				    | <a href="#" id="expandable"><i class="btn btn-primary btn-xs">Desplegar todo</i></a>
 				</td>
 			</tr>
 			<tr bgcolor="skyblue" style="font-weight: bold; font-size: 15px;">  
@@ -90,11 +90,11 @@
 				<td width="100" align="center">Price</td> 
 				<td width="100" align="center">Quantity</td>
 				<td width="100" align="center">Sub-total</td> -->
-				<td>Order Number</td>
-				<td style="width: 130px;">Total Bill</td>
-				<td style="width: 140px;">Discount (20%)</td>
+				<td>Numero de Orden</td>
+				<td style="width: 130px;">Cuenta total</td>
+				<td style="width: 140px;">Descuento (20%)</td>
                 <td>Senior ID</td>
-				<td style="width: 130px;">Total Amount</td>
+				<td style="width: 130px;">Cantidad total</td>
 			</tr>
 
 		</thead>
@@ -213,7 +213,7 @@
 					<input type="hidden" name="datefrom" value="<?php echo isset($_POST['date_pickerfrom']) ? $_POST['date_pickerfrom'] : "mm/dd/yy" ?>">
 					<input type="hidden" name="dateto" value="<?php echo isset($_POST['date_pickerto']) ? $_POST['date_pickerto'] : "mm/dd/yy" ?>">
 			
-				<button style="font-size: 15px;" title="Export to Excel File"  type="submit" class="btn btn-success"><i class="fa fa-file-excel-o"></i> Export Report</button>
+				<button style="font-size: 15px;" title="Export to Excel File"  type="submit" class="btn btn-success"><i class="fa fa-file-excel-o"></i> Reporte de exportacion</button>
 		     	</form>
 	 			</div>
 	 		</div>

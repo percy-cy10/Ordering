@@ -49,22 +49,22 @@
 		</div>
 	</div> -->
  <div class="col-lg-12"> 
-	<div class="page-header"><h1 align="center">Plazacafe</h1>
+	<div class="page-header"><h1 align="center">Foodsy</h1>
 	<div id="wrap">
-	<h3 align="center">Sales Report</h3>
+	<h3 align="center">Reporte de ventas</h3>
     <p  style="font-size:15px;text-align: center;">
-    Inclusive Dates <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "mm/dd/yy" ?> <?php echo isset($_POST['date_pickerfrom']) ? "To : " .$_POST['date_pickerto'] : "mm/dd/yy" ?></p></div>
+    Fechas Inclusivas <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "mm/dd/yy" ?> <?php echo isset($_POST['date_pickerfrom']) ? "To : " .$_POST['date_pickerto'] : "mm/dd/yy" ?></p></div>
 		<div class="wrap-content">
-			<label class="item" >Date From:</label>
+			<label class="item" >Fecha de:</label>
 			<input id="datefrom" class="item date_pickerfrom validate_date" type="" name="date_pickerfrom" autocomplete="off" placeholder="mm/dd/yyyy" required>
 		</div>
 		<div class="wrap-content">
-			<label class="item" >Date To:</label>
+			<label class="item" >Fecha hasta:</label>
 			<input id="dateto" class="item date_pickerto validate_date" type="" name="date_pickerto" autocomplete="off" placeholder="mm/dd/yyyy" required> 
 		</div>
 		<div class="wrap-content"> 
 			<label class="item" ></label>
-			<button class="item btn btn-primary btn-sm submit" type="submit" name="submit">View Report</button>   
+			<button class="item btn btn-primary btn-sm submit" type="submit" name="submit">Vista del informe</button>   
 		</div> 
     <div id="validaterecord"></div>
     <center>
@@ -73,8 +73,8 @@
 			<tr bgcolor="skyblue" style="font-weight: bold; font-size: 15px;">  
 				<!-- <td width="150">Order#</td> -->
 				<td>Description</td>
-				<td width="100" align="center">Price</td> 
-				<td width="100" align="center">Quantity</td>
+				<td width="100" align="center">Precio</td> 
+				<td width="100" align="center">Cantidad</td>
 				<td width="100" align="center">Sub-total</td>
 			</tr>
 

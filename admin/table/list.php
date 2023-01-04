@@ -36,7 +36,7 @@
 				  	    if ($result->STATUS=='Reserved') {
 				  			# code...
 
-				  			$btn = "Cancel";
+				  			$btn = "Cancelar";
 				  			$reservebtn = "Cancel";
 				  			$resdisable = "Disabled";
 				  			$titlebtn = "Cancel";
@@ -47,7 +47,7 @@
 				  			
 				  		}elseif ($result->STATUS=='Available') {
 				  			# code...
-				  			$btn = "Reserve";
+				  			$btn = "Reservar";
 				  			$reservebtn = "Reserve";
 				  			$titlebtn = "Cancel";
 				  			$resdisable = "";
@@ -58,7 +58,7 @@
 				  			 
 				  		}elseif ($result->STATUS=='Occupied') {
 				  			# code...
-				  		    $btn = "Occupied";
+				  		    $btn = "Ocupado";
 				  		    $reservebtn = "Reserve";
 				  		    $resdisable = "";
 				  		    $titlebtn = "Cancel";
