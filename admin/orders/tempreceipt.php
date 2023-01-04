@@ -28,7 +28,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Orders</title>
+<title>Ordenes</title>
  
 
  <!-- Bootstrap Core CSS -->
@@ -73,11 +73,11 @@
 <!--         <div style="text-align: center;font-size: 8px; margin-bottom: 10px;"><?php echo $remarks; ?></div> -->  
     <table class="tables">
         <tr style="border-bottom: .5px solid;padding-bottom:  2px;padding-top: 2px; font-size: 20px;">
-            <td colspan="3" align="center">Table No: <?php echo $tableno; ?></td>
+            <td colspan="3" align="center">No. de Tabla: <?php echo $tableno; ?></td>
         </tr> 
         <tr style="border-bottom: .2px solid;padding: 5px; margin-top: 10px;">
-            <td width="30px;" style="font-size: 10px; font-weight: bold; margin-right: 5px; padding-top: 5px; padding-bottom: 5px;">Qty</td>
-            <td width="130px" style="font-size: 10px; font-weight: bold; padding-top: 5px; padding-bottom: 5px;">Description</td>
+            <td width="30px;" style="font-size: 10px; font-weight: bold; margin-right: 5px; padding-top: 5px; padding-bottom: 5px;">Cantidad</td>
+            <td width="130px" style="font-size: 10px; font-weight: bold; padding-top: 5px; padding-bottom: 5px;">Descripcion</td>
             <!-- <td align="right">Amount</td> -->
         </tr>
         <?php 
