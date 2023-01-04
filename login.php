@@ -68,7 +68,7 @@ require_once("include/initialize.php");
         
         <a href="registro.php">
           <button style="width: 35%;"  type="submit" class="btn btn-success" name="btnLogin"> 
-           &nbsp;&nbsp;<b>Crear cuenta</b></button>
+           &nbsp;&nbsp;<b>Crear nueva cuenta</b></button>
         
         </a>
        
