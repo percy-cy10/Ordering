@@ -4,7 +4,7 @@
 		 
 		<div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">List of Location  <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> New</a>  </h1>
+            <h1 class="page-header">Lista de ubicación <a href="index.php?view=add" class="btn btn-primary btn-xs  ">  <i class="fa fa-plus-circle fw-fa"></i> New</a>  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -14,9 +14,9 @@
 					
 				  <thead>
 				  	<tr>  
-				  		<th>Place</th> 
-				  		<th>Delivery Fee</th>  
-				  		<th>Action</th>
+				  		<th>Sitio</th> 
+				  		<th>Gastos de envío</th>  
+				  		<th>Accion</th>
 				  	</tr>	
 				  </thead> 	
 

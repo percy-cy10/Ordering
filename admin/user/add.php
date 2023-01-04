@@ -15,7 +15,7 @@
 
            <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Add New User</h1>
+            <h1 class="page-header">Agregar nuevo usuario</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div> 
@@ -32,7 +32,7 @@
                   </div> -->           
                    <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="U_NAME">Name:</label>
+                      <label class="col-md-4 control-label" for="U_NAME">Nombres:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
@@ -45,7 +45,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "U_USERNAME">Username:</label>
+                      "U_USERNAME">Nombre de usuario:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
@@ -73,9 +73,9 @@
 
                       <div class="col-md-8">
                        <select class="form-control input-lg" name="U_ROLE" id="U_ROLE">
-                          <option value="Administrator"  >Administrator</option>
-                          <option value="Cashier"  >Cashier</option> 
-                          <option value="Waiter">Waiter</option> 
+                          <option value="Administrator"  >Administrador</option>
+                          <option value="Cashier"  >Cajero</option> 
+                          <option value="Waiter">Cliente</option> 
                         </select> 
                       </div>
                     </div>

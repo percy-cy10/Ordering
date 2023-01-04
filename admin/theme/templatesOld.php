@@ -89,7 +89,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Navegación de palanca</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -115,7 +115,7 @@
                     <a href="#" class="dropdown-toggle" style="font-size: 20px;" data-toggle="dropdown"><i class="fa fa-user-o"></i> <?php echo $_SESSION['ADMIN_FULLNAME']; ?> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li style="font-size: 15px;">
-                            <a href="<?php echo web_root; ?>admin/logout.php"><i class="fa fa-fw fa-sign-out"></i>Log Out</a>
+                            <a href="<?php echo web_root; ?>admin/logout.php"><i class="fa fa-fw fa-sign-out"></i>Cerrar sesión</a>
                         </li>
                     </ul>
                 </li>
@@ -128,30 +128,30 @@
 
 <?php if ($_SESSION['ADMIN_ROLE']=='Cashier' || $_SESSION['ADMIN_ROLE']=='Administrator') { ?> 
                     <li class="<?php echo ($_GET['view']== 'POS' || $_GET['view']== 'addmeal') ? "active" : false;?>">
-                        <a href="<?php echo web_root; ?>admin/orders/index.php?view=POS"><i class="fa fa-fw fa-th-list"></i> Orders <div id="notif" class="label label-danger"><?php echo $maxrow; ?></div></a>
+                        <a href="<?php echo web_root; ?>admin/orders/index.php?view=POS"><i class="fa fa-fw fa-th-list"></i> Ordenes <div id="notif" class="label label-danger"><?php echo $maxrow; ?></div></a>
                     </li> 
 <?php } ?>
 <?php if ($_SESSION['ADMIN_ROLE']=='Administrator'  || $_SESSION['ADMIN_ROLE']=='Cashier') { ?> 
                     <li class="<?php echo (currentpage() == 'table') ? "active" : false;?>">
-                        <a href="<?php echo web_root; ?>admin/table/"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="<?php echo web_root; ?>admin/table/"><i class="fa fa-fw fa-table"></i> Mesas</a>
                     </li>
 <?php } ?>
 <?php if ($_SESSION['ADMIN_ROLE']=='Administrator'  || $_SESSION['ADMIN_ROLE']=='Cashier') { ?> 
                     <li class="<?php echo (currentpage() == 'meals') ? "active" : false;?>">
-                        <a href="<?php echo web_root; ?>admin/meals/"><i class="fa fa-cutlery"></i> Meals</a>
+                        <a href="<?php echo web_root; ?>admin/meals/"><i class="fa fa-cutlery"></i> Comida</a>
                     </li>
                     <li class="<?php echo (currentpage() == 'category') ? "active" : false;?>">
-                        <a href="<?php echo web_root; ?>admin/category/"><i class="fa fa-align-left"></i> Categories</a>
+                        <a href="<?php echo web_root; ?>admin/category/"><i class="fa fa-align-left"></i> Categorias</a>
                     </li>
 <?php } ?>                  
 <?php if ($_SESSION['ADMIN_ROLE']=='Administrator' || $_SESSION['ADMIN_ROLE']=='Admin') {?> 
                     <li class="<?php echo (currentpage() == 'user') ? "active" : false;?>">
-                        <a href="<?php echo web_root; ?>admin/user/"><i class="fa fa-users"></i> Manage Users</a>
+                        <a href="<?php echo web_root; ?>admin/user/"><i class="fa fa-users"></i> Administrar usuarios</a>
                     </li>
 <?php } ?>
 <?php if ($_SESSION['ADMIN_ROLE']=='Administrator') { ?>
                     <li class="<?php echo (currentpage() == 'report') ? "active" : false;?>">
-                        <a href="<?php echo web_root; ?>admin/report/"><i class="fa fa-bar-chart"></i> Sales Report</a>
+                        <a href="<?php echo web_root; ?>admin/report/"><i class="fa fa-bar-chart"></i> Reporte de ventas</a>
                     </li>   
 <?php } ?>
                 </ul>

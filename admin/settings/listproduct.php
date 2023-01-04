@@ -4,7 +4,7 @@
 		 
 		<div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">List of Products   </h1>
+            <h1 class="page-header">Lista de Productos </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -16,8 +16,8 @@
 				  	<tr>  
 				  		<!-- <th>Model</th>  -->
 				  		<!-- <th align="left"><input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');"> Product</th>  -->
-				  		<th>Product</th> 
-				  		<th>Description</th>
+				  		<th>Producto</th> 
+				  		<th>Descripcion</th>
 				  		<!-- <th>Category</th> -->
 				  		<th>Price</th>
 				  		<!-- <th>Quantity</th>   -->
