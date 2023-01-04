@@ -19,9 +19,9 @@
     }
 ?> 
 <table id="table" class="table table-responsive">
-  <th>Meal</th>
-  <th width="80">Price</th>
-  <th width="80">Qty</th>
+  <th>Comidas</th>
+  <th width="80">Precio</th>
+  <th width="80">Cantidad</th>
   <th width="80">Sub-total</th>
   <th width="20"></th>
    <?php
@@ -65,7 +65,7 @@
 
                <div id="placeorder">
               <div class="row" >
-                <label class="col-xs-2"  style="height: 30px;text-align:  center; font-size: 12px" >Table No.</label>
+                <label class="col-xs-2"  style="height: 30px;text-align:  center; font-size: 12px" >No. de Tabla </label>
                 <div class="col-xs-2"> 
                   <select  name="tableno" id="tableno"   >  
 
@@ -92,12 +92,12 @@
 
                    <div class="col-xs-2"> 
                   <select   name="REMARKS" id="REMARKS"   >  
-                    <option value="Dine-In">Dine In</option>
-                    <option value="Take-Out">Take Out</option>
+                    <option value="Dine-In">Cenar en</option>
+                    <option value="Take-Out">Sacar</option>
                   </select>
                 </div> 
                 <div class="col-xs-2">
-                   <button  style="height: 30px;text-align:  center; font-size: 12px"  type="submit" id="submit" name="submit" class="text-center btn btn-primary  btn-xs">Place Order</button> 
+                   <button  style="height: 30px;text-align:  center; font-size: 12px"  type="submit" id="submit" name="submit" class="text-center btn btn-primary  btn-xs">Realizar pedido</button> 
                 </div>
               </div>
              </div> 
