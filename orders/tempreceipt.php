@@ -48,7 +48,7 @@
 <center>
     <div class="container">
         <div style="text-align: center;"><?php echo date('M-d/D-Y'); ?></div>
-        <div style="text-align: center;font-size: 20px;">Customer's Order</div>
+        <div style="text-align: center;font-size: 20px;">Pedido del cliente</div>
         <div><?php echo $remarks; ?> </div>
                  <tfoot>
                     <?php 
@@ -70,16 +70,16 @@
                          }
                              ?>
                       <tr style="text-align: center;">
-                            <td colspan="2">Table No. <?php echo $tableno; ?> | </td>
-                            <td>Order No. <?php echo $orderno; ?></td>
+                            <td colspan="2">N° de Tabla<?php echo $tableno; ?> | </td>
+                            <td>N° Orden<?php echo $orderno; ?></td>
                         </tr>
                  </tfoot>                
        <table id="table" class="table" style="font-size: 12px;padding: 0; width: 570px;" >
                     <thead>
                         <tr> 
-                            <th>Meal</th>
-                            <th width="60" style="text-align: center;">Qty</th>
-                            <th width="50" style="text-align: center;">Price</th>
+                            <th>Comida</th>
+                            <th width="60" style="text-align: center;">Cantidad</th>
+                            <th width="50" style="text-align: center;">Precio</th>
                             <th width="100" style="text-align: center;">Sub-total</th> 
                         </tr> 
                     </thead>

@@ -9,21 +9,21 @@ require_once("../../include/initialize.php");
 <?php 
     $cart_value =0;
     if (isset($_SESSION['admin_gcCart'])) { 
-        if (!empty($_SESSION['admin_gcCart'])){  
+      if (!empty($_SESSION['admin_gcCart'])){  
 
-            $count_cart = count($_SESSION['admin_gcCart']);
+          $count_cart = count($_SESSION['admin_gcCart']);
 
-            for ($i=0; $i < $count_cart  ; $i++) {  
-                   $cart_value  +=  $_SESSION['admin_gcCart'][$i]['qty'];
-            } 
-        }
-       } 
+          for ($i=0; $i < $count_cart  ; $i++) {  
+            $cart_value  +=  $_SESSION['admin_gcCart'][$i]['qty'];
+          } 
+      }
+    } 
 
 ?>
     
 <!-- Nav tabs --> 
 <ul class="nav nav-pills">
-    <li class="active"><a href="#home" data-toggle="tab">List of Meals</a>
+    <li class="active"><a href="#home" data-toggle="tab">Lista de Comidas</a>
     </li>
     <li>
       <a href="#profile" data-toggle="tab">
@@ -48,9 +48,9 @@ require_once("../../include/initialize.php");
       <table id="dash-table2"  class="table table-striped table-bordered table-hover "  style="font-size:11px" cellspacing="0" >
            <thead>
             <tr>   
-              <th>Meals</th>  
-              <th width="100">Categories</th>  
-              <th width="80">Price</th> 
+              <th>Comidas</th>  
+              <th width="100">Categorias</th>  
+              <th width="80">Precio</th> 
               <th width="20"></th> 
             </tr> 
           </thead>  
@@ -117,11 +117,11 @@ require_once("../../include/initialize.php");
 <table id="table" class="table table-responsive">
 <thead>
   <tr>
-  <th>Meal</th>
-  <th width="80">Price</th>
-  <th width="80">Qty</th>
+  <th>Comidas</th>
+  <th width="80">Precio</th>
+  <th width="80">Cantidad</th>
   <th width="80">Sub-total</th>
-  <th width="20">Action</th>
+  <th width="20">Acción</th>
   </tr>
 </thead>
 <tbody>
@@ -164,7 +164,7 @@ require_once("../../include/initialize.php");
 
              <div id="placeorder">
               <div class="row" >
-                <label class="col-xs-2"  style="height: 30px;text-align:  center; font-size: 13px">Table No.</label>
+                <label class="col-xs-2"  style="height: 30px;text-align:  center; font-size: 13px">N° Tabla</label>
                 <div class="col-xs-2"> 
                   <select style="font-size:15px;" name="tableno" id="tableno">  
 
@@ -191,8 +191,8 @@ require_once("../../include/initialize.php");
 
                    <div style="font-size:15px;" class="col-xs-2"> 
                   <select style="font-size:15px;" name="REMARKS" id="REMARKS">  
-                    <option value="DineIn">Dine In</option>
-                    <option value="TakeOut">Take Out</option>
+                    <option value="DineIn">Cenar en</option>
+                    <option value="TakeOut">Sacar</option>
                   </select>
                 </div> 
                 <div class="col-xs-2">

@@ -61,27 +61,27 @@
 <div id="wrapper">
     <div class="container">
         <div style="text-align: center;font-size: 20px;">Plaza Cafe</div>
-        <div style="text-align: center;">Customer Receipt</div>
+        <div style="text-align: center;">Recibo del cliente</div>
         <div style="text-align: center;font-size: 13px; margin-bottom: 10px;"><?php echo $remarks; ?></div>
         <table class="tables" style="border: 0; width: 550px;">
             <tr>
-                <td>Order No.: <?php echo $orderno; ?></td>
-                <td>Printed Date: <?php echo $printeddate; ?></td>
+                <td>N° Orden: <?php echo $orderno; ?></td>
+                <td>Fecha impresa: <?php echo $printeddate; ?></td>
             </tr>
             <tr>
-                <td>Customer No.: <?php echo $customer; ?></td>
-                <td>Table No.: <?php echo $tableno; ?></td>
+                <td>N° Cliente: <?php echo $customer; ?></td>
+                <td>N° Tabla: <?php echo $tableno; ?></td>
             </tr>
             <tr>
-                <td>Cashier: <?php echo $username; ?></td>
+                <td>Cajero: <?php echo $username; ?></td>
             </tr>
         </table>
        <table id="table" class="table" style="font-size: 9px; border:0; padding: 0; width: 550px;" >
                     <thead>
                         <tr> 
-                            <th>Meal</th>
-                            <th width="60">Price</th>
-                            <th width="50">Qty</th>
+                            <th>Comida</th>
+                            <th width="60">Precio</th>
+                            <th width="50">Cantidad</th>
                             <th width="100">Sub-total</th> 
                         </tr> 
                     </thead>
@@ -124,12 +124,12 @@
                             <th  width="100"><?php echo number_format($total,2); ?></th>
                         </tr>
                         <tr> 
-                            <th colspan="3" style="text-align:right;">Tender Amount</th>
+                            <th colspan="3" style="text-align:right;">Importe de la oferta</th>
                             <th  width="100"><?php echo number_format($res->TENDEREDAMOUNT,2); ?></th>
                         </tr>
                         <tr>
-                            <th>Thank You for Coming... |</th>
-                            <th colspan="2" style="text-align:right;">Changed</th>
+                            <th>Gracias por venir...|</th>
+                            <th colspan="2" style="text-align:right;">Cambiado</th>
                             <th  width="100"><?php echo number_format($res->PCHANGE,2); ?></th>
                         </tr>
                        

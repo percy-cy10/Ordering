@@ -12,9 +12,9 @@ require_once ("../../include/initialize.php");
   }
 ?> 
 <table id="table" class="table table-responsive">
-  <th>Meal</th>
-  <th width="80">Price</th>
-  <th width="80">Qty</th>
+  <th>Comidas</th>
+  <th width="80">Precio</th>
+  <th width="80">Cantidad</th>
   <th width="80">Sub-total</th>
   <th width="20"></th>
    <?php
@@ -58,7 +58,7 @@ require_once ("../../include/initialize.php");
 
              <div id="placeorder">
               <div class="row">
-                <label class="col-xs-4" >Table No.</label>
+                <label class="col-xs-4" >No. de Tabla</label>
                 <div class="col-xs-4">
                   <select class="form-control"  name="tableno" id="tableno"  >  
 
@@ -83,7 +83,7 @@ require_once ("../../include/initialize.php");
                                        </select>
                 </div> 
                 <div class="col-xs-4">
-                   <button  style="height: 40px;text-align:  center; width: 140px;font-size: 15px"  type="submit" id="submit" name="submit" class="text-center btn btn-primary  btn-sm">Place Order</button> 
+                   <button  style="height: 40px;text-align:  center; width: 140px;font-size: 15px"  type="submit" id="submit" name="submit" class="text-center btn btn-primary  btn-sm">Realizar pedido</button> 
                 </div>
               </div>
              </div> 

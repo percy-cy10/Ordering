@@ -67,9 +67,9 @@ require_once("../include/initialize.php");
 <table id="table" class="table table-hover" style="font-size: 12px" >
     				<thead>
     					<tr> 
-    					    <th>Meal</th>
-							<th width="60">Price</th>
-							<th width="50">Qty</th>
+    					    <th>Comida</th>
+							<th width="60">Precio</th>
+							<th width="50">Cantidad</th>
 							<th width="100">Sub-total</th>
 							<th width="30"  > </th>
     					</tr> 

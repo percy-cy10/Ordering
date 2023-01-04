@@ -4,9 +4,9 @@ require_once("../../include/initialize.php");
 <table id="dash-table2"  class="table table-striped table-bordered table-hover "  style="font-size:12px" cellspacing="0" >
            <thead>
             <tr>   
-              <th>Meals</th>  
-              <th width="100">Categories</th>  
-              <th width="80">Price</th> 
+              <th>Comidas</th>  
+              <th width="100">Categorias</th>  
+              <th width="80">Precio</th> 
               <th width="20"></th> 
             </tr> 
           </thead>  
