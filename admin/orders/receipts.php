@@ -77,17 +77,17 @@ date_default_timezone_set('Asia/Manila');
                 $viewTitle = mysql_fetch_assoc($res);
                 echo $viewTitle['Title'];
             ?></title></div>
-        <div style="text-align: center;font-size: 8px;">Located at Center Plaza, Rizal Street</div>
-        <div style="text-align: center;font-size: 8px;">Kabankalan City, Negros Occidental</div>
+        <div style="text-align: center;font-size: 8px;">Ubicado en Centro de la Ciudad, Av.La Torre</div>
+        <div style="text-align: center;font-size: 8px;">Puno, Perú</div>
         <table>
             <tr>
-                <td colspan="3" style="padding-top: 5px;padding-bottom: 5px; font-size: 8px;">TIN No.: 000-123-456-789</td>
+                <td colspan="3" style="padding-top: 5px;padding-bottom: 5px; font-size: 8px;">No. de Telefono: 910-533-726</td>
             </tr>
         </table>
 <!--         <div style="text-align: center;font-size: 8px; margin-bottom: 10px;"><?php echo $remarks; ?></div> -->  
     <table  class="tables">
         <tr style="border-bottom: .5px solid; font-size: 8px;margin-bottom: 5px;">
-            <td colspan="3" align="center" style="padding-bottom: 3px;">Table No: <?php echo $tableno; ?> | Order No.: <?php echo $orderno?></td>
+            <td colspan="3" align="center" style="padding-bottom: 3px;">Table No: <?php echo $tableno; ?> |No. de Orden: <?php echo $orderno?></td>
         </tr>
         <tr style="margin-bottom:5px;margin-top:5px;">
         <?php 
@@ -153,18 +153,18 @@ date_default_timezone_set('Asia/Manila');
                             ?> 
                         <!-- summary -->  
                         <tr>
-                            <td colspan="2" style="padding-top: 5px;padding-bottom: 2px;">Gross Charge: </td>
+                            <td colspan="2" style="padding-top: 5px;padding-bottom: 2px;">Cargo bruto: </td>
                              <td  align="right" style="border-bottom: .5px solid;" ><?php echo number_format($res->TOTALPAYMENT,2); ?></td>
                         </tr>
                          <tr> 
-                            <td style="padding-top: 5px;padding-bottom: 5px;" colspan="2">Senior Discount: </td>
+                            <td style="padding-top: 5px;padding-bottom: 5px;" colspan="2">Descuento de mayores: </td>
                             <td  align="right"><?php echo number_format($senior,2); ?></td>
                         </tr> 
                         <tr>
                             <td>SeniorID:</td><td><?php echo ($res->SENIORID!="")? $res->SENIORID : "None";?></td>
                         </tr>
                          <tr> 
-                            <td style="padding-top: 5px;padding-bottom: 5px;" colspan="2">Total Bill: </td>
+                            <td style="padding-top: 5px;padding-bottom: 5px;" colspan="2">Cuenta total: </td>
                             <td  align="right"><?php echo number_format($res->OVERALLTOTAL,2); ?></td>
                         </tr>
                         <tr>
@@ -186,21 +186,21 @@ date_default_timezone_set('Asia/Manila');
                             <td></td>
                         </tr> 
                         <tr> 
-                            <td style="padding-bottom: 2px;padding-top: 2px;" colspan="2">Reg. Bill: </td>
+                            <td style="padding-bottom: 2px;padding-top: 2px;" colspan="2">Registro Factura: </td>
                             <td  colspan="2" ><?php echo number_format($regbill,2); ?></td>
                         </tr>
                         <tr>
                             <td></td>
                         </tr> 
                         <tr> 
-                            <td colspan="2" style="padding-top: 5px;padding-bottom: 5px;">Tender Amount: </td>
+                            <td colspan="2" style="padding-top: 5px;padding-bottom: 5px;">Monto de la oferta: </td>
                             <td  align="right"><?php echo number_format($res->TENDEREDAMOUNT,2); ?></td>
                         </tr>
                         <tr>
                             <td></td>
                         </tr>
                         <tr>
-                            <td colspan="2" style="padding-top: 2px;padding-bottom: 5px;">Change: </td>
+                            <td colspan="2" style="padding-top: 2px;padding-bottom: 5px;">Cambio: </td>
                             <td  align="right"><?php echo number_format($res->PCHANGE,2); ?></td>
                         </tr>
                         <tr>
@@ -225,23 +225,23 @@ date_default_timezone_set('Asia/Manila');
                             <tr><td></td></tr>
                             <tr>
                                 <td colspan="3" style="text-align: left; font-size: 8px; padding-top: 5px; border-top: .5px dashed;">
-                                    Like & Share our Facebook Page:
+                                Dale me gusta y comparte nuestra página de Facebook:
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="3" style="text-align: center; font-size: 8px; ">www.facebook.com/meloisplazacafe</td>
+                                <td colspan="3" style="text-align: center; font-size: 8px; ">https://es-la.facebook.com/foodsy.io/</td>
                             </tr>
                         <tr>
                             <td style="padding-top: 5px;" colspan="3" align="center">
-                                Please ask for your Official Receipt.
+                            Solicite su recibo oficial.
                             </td>
                         </tr>
                         <tr>  
-                            <td colspan="3" style="padding-top: 5px; padding-bottom: 5px; text-align: center;margin-bottom: 5px;">Thank You for Coming...</td>
+                            <td colspan="3" style="padding-top: 5px; padding-bottom: 5px; text-align: center;margin-bottom: 5px;">Gracias por venir...</td>
                         </tr>
                         <tr style="border-bottom: .5px solid;">
-                            <td style="margin-top: 5px; font-size: 8px;">Date: <?php echo date('M-d-Y'); ?></td>
-                            <td style="padding-bottom: 4px;" colspan="3" style="font-size: 8px;">Time: <?php echo date('h:i A'); ?></td>
+                            <td style="margin-top: 5px; font-size: 8px;">Fecha: <?php echo date('M-d-Y'); ?></td>
+                            <td style="padding-bottom: 4px;" colspan="3" style="font-size: 8px;">Hora: <?php echo date('h:i A'); ?></td>
                         </tr>
     </table>
     </div>

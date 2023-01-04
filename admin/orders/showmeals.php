@@ -63,11 +63,11 @@ require_once("../../include/initialize.php");
 <table id="table" class="table table-hover" style="font-size: 12px" >
     				<thead>
     					<tr style="font-size: 15px;"> 
-    					    <th>Meal</th>
-							<th width="60">Price</th>
-							<th width="50" style="text-align: center;">Qty</th>
-							<th width="90">Amount</th>
-							<th width="30">Action</th>
+    					    <th>Comida</th>
+							<th width="60">Precio</th>
+							<th width="50" style="text-align: center;">Cantidad</th>
+							<th width="90">Monto</th>
+							<th width="30">Accion</th>
     					</tr> 
     				</thead>
     				<tbody>
@@ -108,7 +108,7 @@ require_once("../../include/initialize.php");
     		<!-- end order details -->
     		<!-- summary --> 
     			<div style="font-size: 19px;font-weight: bold;margin-top:20px;margin-bottom: 3px">
-            Summary
+            Resumen
           </div>
                 
           <table class="table table-bordered">
@@ -121,7 +121,7 @@ require_once("../../include/initialize.php");
                         <tr>
                             <tr>
                                 <td>
-                                    <b style="font-size: 13px;">Discount Person(s)</b> <input type="checkbox" id="SENIORCITIZEN" name="SENIORCITIZEN" class="seniorcitizen" value="20">
+                                    <b style="font-size: 13px;">Persona(s) con descuento</b> <input type="checkbox" id="SENIORCITIZEN" name="SENIORCITIZEN" class="seniorcitizen" value="20">
                                 </td>
                                 <td>
                                     <input class="form-control" placeholder="How many persons?" type="number" id="SENIORADDNO" name="SENIORADDNO" style="width: 200px;" disabled="true">
@@ -134,18 +134,18 @@ require_once("../../include/initialize.php");
                             <input type="hidden" name="overalltotal" id="overalltotal"   value="<?php echo number_format($total,2); ?>"></th>
                         </tr>
               <tr>
-                <th width="250">Tender Amount</th>
+                <th width="250">Importe de la oferta</th>
                 <th><input type="text" class="form-control"  name="tenderamount" id="tenderamount"  placeholder="&#8369 0.00" autocomplete="off"> <span id="errortrap"></span></th>
               </tr>
               <tr>
-                <th width="250">Change</th>
+                <th width="250">Cambio</th>
                 <th><input class="form-control" type="" class="sukli" readonly="true" name="sukli" id="sukli" value="" placeholder="&#8369 0.00"></th>
               </tr>
             </thead>
           </table>
           <div>
-            <button target="_blank" type="submit" name="save" class="btn btn-primary btn-lg fa fa-save" id="save"> Save & Print</button>
-                    <a target="_blank" href="tempreceipt.php?orderno=<?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?>&tableno=<?php echo isset($_GET['tableno']) ?  $_GET['tableno'] : "NONE" ?>" class="btn btn-default btn-lg fa fa-print"> <b>Print for Cook</b></a>
+            <button target="_blank" type="submit" name="save" class="btn btn-primary btn-lg fa fa-save" id="save"> Guardar e imprimir</button>
+                    <a target="_blank" href="tempreceipt.php?orderno=<?php echo isset($_GET['orderno']) ?  $_GET['orderno'] : "NONE" ?>&tableno=<?php echo isset($_GET['tableno']) ?  $_GET['tableno'] : "NONE" ?>" class="btn btn-default btn-lg fa fa-print"> <b>Imprimir para cocinar</b></a>
           </div>
         </div> 
 

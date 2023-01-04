@@ -70,23 +70,23 @@
         <div style="text-align: center;font-size: 13px; margin-bottom: 10px;"><?php echo $remarks; ?></div>
         <table class="tables" style="border: 0; width: 550px;">
             <tr>
-                <td>Order No.: <?php echo $orderno; ?></td>
-                <td>Printed Date: <?php echo $printeddate; ?></td>
+                <td>No. de Orden: <?php echo $orderno; ?></td>
+                <td>Fecha impresa: <?php echo $printeddate; ?></td>
             </tr>
             <tr>
-                <td>Customer No.: <?php echo $customer; ?></td>
-                <td>Table No.: <?php echo $tableno; ?></td>
+                <td>No. de Cliente: <?php echo $customer; ?></td>
+                <td>No. de Tabla: <?php echo $tableno; ?></td>
             </tr>
             <tr>
-                <td>Cashier: <?php echo $username; ?></td>
+                <td>Cajero: <?php echo $username; ?></td>
             </tr>
         </table>
        <table id="table" class="table" style="font-size: 6px; border:0; padding: 0; width: 550px;" >
                     <thead>
                         <tr> 
-                            <th>Meal</th>
-                            <th width="60">Price</th>
-                            <th width="50">Qty</th>
+                            <th>Comida</th>
+                            <th width="60">Precio</th>
+                            <th width="50">Cantidad</th>
                             <th width="100">Sub-total</th> 
                         </tr> 
                     </thead>
