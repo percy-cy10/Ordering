@@ -1,0 +1,10 @@
+===========Admin Side=================
+username = admin
+pass = admin
+
+username = cashier1
+pass = c1
+
+=================public side===========
+username = waiter1
+pass = w1
