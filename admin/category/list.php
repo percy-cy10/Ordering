@@ -5,7 +5,7 @@
 ?>
 	<div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">List of Categories  <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Add Category</a>  </h1>
+            <h1 class="page-header">Lista de categorías <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Add Category</a>  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -18,7 +18,7 @@
 				  		<!-- <th>No.</th> -->
 				  		<th style="font-size: 15px;">
 				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
-				  		 Category</th> 
+				  		 Categoria</th> 
 				  		 <th width="25%" style="text-align: center; font-size: 15px;">Action</th>
 				  	</tr>	
 				  </thead> 
