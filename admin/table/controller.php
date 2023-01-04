@@ -89,7 +89,7 @@ switch ($action) {
 			$table->RESERVEDTIME = "";
 			$table->update($_GET['id']);
 
-			message("¡El número de mesa ha estado disponible!", "success");
+			message("¡El número de mesa ha estado disponible!", "éxito");
 
 		}
  			

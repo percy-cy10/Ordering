@@ -115,7 +115,7 @@
                     <a href="#" class="dropdown-toggle" style="font-size: 20px;" data-toggle="dropdown"><i class="fa fa-user-o"></i> <?php echo $_SESSION['ADMIN_FULLNAME']; ?> <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li style="font-size: 15px;">
-                            <a href="<?php echo web_root; ?>admin/logout.php"><i class="fa fa-fw fa-sign-out"></i>Log Out</a>
+                            <a href="<?php echo web_root; ?>admin/logout.php"><i class="fa fa-fw fa-sign-out"></i>Cerrar sesión</a>
                         </li>
                     </ul>
                 </li>
