@@ -74,10 +74,10 @@
 
                       <div class="col-md-8">
                        <select class="form-control input-lg" name="U_ROLE" id="U_ROLE">
-                          <option value="Administrator"  <?php echo ($singleuser->ROLE=='Administrator') ? 'selected="true"': '' ; ?>>Administrator</option>
-                          <option value="Cashier" <?php echo ($singleuser->ROLE=='Cashier') ? 'selected="true"': '' ; ?>>Cashier</option> 
+                          <option value="Administrator"  <?php echo ($singleuser->ROLE=='Administrator') ? 'selected="true"': '' ; ?>>Administrador</option>
+                          <option value="Cashier" <?php echo ($singleuser->ROLE=='Cashier') ? 'selected="true"': '' ; ?>>Cajero</option> 
                           <!-- <option value="Customer">Customer</option> -->
-                          <option value="Waiter" <?php echo ($singleuser->ROLE=='Waiter') ? 'selected="true"': '' ; ?>>Waiter</option>
+                          <option value="Waiter" <?php echo ($singleuser->ROLE=='Waiter') ? 'selected="true"': '' ; ?>>Cliente</option>
                         </select> 
                       </div>
                     </div>
@@ -90,7 +90,7 @@
                       "idno"></label>
 
                       <div class="col-md-8">
-                         <button style="width: 100%;" class="btn btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                         <button style="width: 100%;" class="btn btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                           <!-- <a href="index.php" class="btn btn-info"><span class="fa fa-arrow-circle-left fw-fa"></span>&nbsp;<strong>List of Users</strong></a> -->
                       </div>
                     </div>

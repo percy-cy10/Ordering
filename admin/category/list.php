@@ -5,7 +5,7 @@
 ?>
 	<div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">Lista de categorías <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Add Category</a>  </h1>
+            <h1 class="page-header">Lista de categorías <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Añadir Categoría</a>  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -19,7 +19,7 @@
 				  		<th style="font-size: 15px;">
 				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
 				  		 Categoria</th> 
-				  		 <th width="25%" style="text-align: center; font-size: 15px;">Action</th>
+				  		 <th width="25%" style="text-align: center; font-size: 15px;">Accion</th>
 				  	</tr>	
 				  </thead> 
 				  <tbody>
@@ -34,8 +34,8 @@
 				  		//      <input type="checkbox" name="selector[]" id="selector[]" value="'.$result->CATEGORYID. '"/>
 				  		// 		' . $result->CATEGORIES.'</a></td>';
 				  			echo '<td style="font-size:15px;">' . $result->CATEGORY.'</td>';
-				  		echo '<td align="center"><a title="Edit" href="index.php?view=edit&id='.$result->CATEGORYID.'" class="btn btn-primary btn-s  "> <span class="fa fa-pencil fw-fa"> Edit </a>
-				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->CATEGORYID.'" class="btn btn-danger btn-s  ">  <span class="fa  fa-trash-o "> Remove </a></td>';
+				  		echo '<td align="center"><a title="Edit" href="index.php?view=edit&id='.$result->CATEGORYID.'" class="btn btn-primary btn-s  "> <span class="fa fa-pencil fw-fa"> Editar </a>
+				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->CATEGORYID.'" class="btn btn-danger btn-s  ">  <span class="fa  fa-trash-o "> Borrar </a></td>';
 				  		// echo '<td></td>';
 				  		echo '</tr>';
 				  	} 
