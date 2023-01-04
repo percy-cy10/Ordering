@@ -15,20 +15,29 @@ require_once("include/initialize.php");
 <html >
 <head>
 <meta charset="UTF-8">
-<title>
-  <?php
-      $sql = "SELECT * FROM `tbltitle` WHERE TItleID=1";
-      $mydb->setQuery($sql);
-      $viewTitle = $mydb->loadSingleResult();
-      echo $viewTitle->Title;
-  ?>
+  <title>
+    <?php
+        $sql = "SELECT * FROM `tbltitle` WHERE TItleID=1";
+        $mydb->setQuery($sql);
+        $viewTitle = $mydb->loadSingleResult();
+        echo $viewTitle->Title;
+    ?>
 
-</title>  
+  </title>  
   
-    <!--<link rel="icon" href="<?php echo web_root; ?>favicon-1.ico" type="image/x-icon">-->
-  
-      <link rel="stylesheet" href="<?php echo web_root; ?>admin/css/style.css">
+  <!--<link rel="icon" href="<?php echo web_root; ?>favicon-1.ico" type="image/x-icon">-->
 
+  <link rel="stylesheet" href="<?php echo web_root; ?>admin/css/style.css">
+
+  <style>
+
+    body {
+      background-image: url('img/fondo.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
   
 </head>
 
@@ -46,7 +55,7 @@ require_once("include/initialize.php");
         <input style="font-size: 15px;" type="password" placeholder="Password..." required="" id="password" name="user_pass" />
       </div>
       <div>
-        <input style="width: 92%;" type="submit" name="btnLogin" value="Log in"/>
+        <input style="width: 92%;" type="submit" name="btnLogin" value="Ingresar"/>
       </div>
     </form><!-- form -->
     <div class="button">
