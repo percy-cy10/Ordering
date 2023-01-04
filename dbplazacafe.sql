@@ -465,7 +465,7 @@ CREATE TABLE IF NOT EXISTS `tbltitle` (
 --
 
 INSERT INTO `tbltitle` (`TItleID`, `Title`, `Subtitle`) VALUES
-(1, 'meloi''s Plaza CafÃ©', '24hrs.');
+(1, 'SISTEMA DE FOODSY', '24hrs.');
 
 -- --------------------------------------------------------
 
