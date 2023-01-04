@@ -13,14 +13,14 @@
 
            <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Reserve a Table</h1>
+            <h1 class="page-header">Reservar una mesa</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div> 
                    
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="TABLENO">Table No.:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="TABLENO"> No. de Mesa:</label>
 
                       <div class="col-md-2">
                        <input id="TABLEID" name="TABLEID"   type="HIDDEN" value="<?php echo $stables->TABLEID; ?>">
@@ -31,7 +31,7 @@
 
                    <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CUSTOMER">Customer Name:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CUSTOMER">Nombre del cliente:</label>
 
                       <div class="col-md-8"> 
                          <input class="form-control input-lg" id="CUSTOMER" name="CUSTOMER" placeholder="Fullname..." type="text" value="" required>
@@ -40,7 +40,7 @@
                   </div>
                    <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CUSTOMER">Time:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CUSTOMER">Hora:</label>
 
                       <div class="col-md-8"> 
                             <div class="input-group bootstrap-timepicker timepicker">
@@ -56,7 +56,7 @@
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for="idno"></label>
                       <div class="col-md-8">
-                         <button style="width: 100%; font-size: 20px;" class="btn btn-primary btn-s" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                         <button style="width: 100%; font-size: 20px;" class="btn btn-primary btn-s" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                       <!-- <a href="index.php" class="btn btn-info"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<strong>Back</strong></a> -->
                      
                      </div>

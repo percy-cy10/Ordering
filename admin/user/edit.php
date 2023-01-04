@@ -15,7 +15,7 @@
  <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">
 
           <fieldset>
-            <h1 class="page-header"> Update User Account</h1>
+            <h1 class="page-header"> Actualizar cuenta de usuario</h1>
                    
                     <!-- <div class="form-group">
                     <div class="col-md-8">
@@ -32,7 +32,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "U_NAME">Name:</label>
+                      "U_NAME">Nombre:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
@@ -45,7 +45,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "U_USERNAME">Username:</label>
+                      "U_USERNAME">Nombre de Usuario:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">

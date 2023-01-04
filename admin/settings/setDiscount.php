@@ -44,11 +44,11 @@ $query = "SELECT * FROM `tblproduct` p  ,`tblcategory` c ,`tblpromopro` pr
                 <p><?php echo   $result->CATEGORIES;?></p>
                 <!-- <h3>Project Details</h3> -->
                 <ul>
-                    <li>Model - <?php echo $result->PROMODEL; ?></li>
-                    <li>Type - <?php echo $result->PRODESC; ?></li>
-                    <li>Price - &#8369 <?php echo $result->PROPRICE; ?></li>
-                    <li>Discount - <?php echo $result->PRODISCOUNT; ?> % </li> 
-                    <li>Discounted Price - &#8369 <?php echo $result->PRODISPRICE; ?> </li> 
+                    <li>Modelo - <?php echo $result->PROMODEL; ?></li>
+                    <li>Tipo - <?php echo $result->PRODESC; ?></li>
+                    <li>Precio- &#8369 <?php echo $result->PROPRICE; ?></li>
+                    <li>Descuento - <?php echo $result->PRODISCOUNT; ?> % </li> 
+                    <li>Descuento de Precio - &#8369 <?php echo $result->PRODISPRICE; ?> </li> 
                 </ul>
 
                 
@@ -58,7 +58,7 @@ $query = "SELECT * FROM `tblproduct` p  ,`tblcategory` c ,`tblpromopro` pr
 </div>
 <div class="row">
         <div class="col-md-12">
-        <h3 class="page-header">Set Discount</h3>
+        <h3 class="page-header">Establecer descuento</h3>
         <div class="col-md-6">
  
              <div class="form-group">
@@ -84,7 +84,7 @@ $query = "SELECT * FROM `tblproduct` p  ,`tblcategory` c ,`tblpromopro` pr
         </div>
           <div class="col-md-6">
              <div class="form-group">
-                <label>Discounted Price:</label>
+                <label>Precio descontado:</label>
 
                
                 <div class="input-group">
