@@ -31,7 +31,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                     <tr>    
                         <td>
                             <strong style="font-size: 20px;">
-                                   Meal                                                
+                                   Comida                                               
                             </strong>
                         </td>
                         <td style="font-size: 20px;" class="text-primary">
@@ -42,7 +42,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                         <td>
                             <strong style="font-size: 20px;">
                                 <!-- <span class="glyphicon glyphicon-cloud text-primary"></span>   -->
-                                Category                                                
+                                Categoria                                                
                             </strong>
                         </td>
                         <td style="font-size: 20px;" class="text-primary">
@@ -54,7 +54,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                         <td>
                             <strong style="font-size: 20px;">
                                 <!-- <span class="glyphicon glyphicon-bookmark text-primary"></span>  -->
-                                Price                                                
+                                Precio                                                
                             </strong>
                         </td>
                         <td style="font-size: 20px;" class="text-primary">

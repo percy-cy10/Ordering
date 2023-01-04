@@ -8,7 +8,7 @@
 		 
 		<div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">List of Meals  <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Add Meal</a>  </h1>
+            <h1 class="page-header">Lista de Comidas  <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Add Meal</a>  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -18,11 +18,11 @@
 					
 				  <thead style="font-size: 18px;">
 				  	<tr>  
-				  		<th style="text-align: center;">Photo</th>  
-				  		<th>Meal Description</th>
-				  		<th>Categories</th>  
-				  		<th>Price</th> 
-				  		<th style="text-align: center;">Action</th> 
+				  		<th style="text-align: center;">Foto</th>  
+				  		<th>DEscripción de la Comida</th>
+				  		<th>Categorias</th>  
+				  		<th>Precio</th> 
+				  		<th style="text-align: center;">Accion</th> 
 				  	</tr>	
 				  </thead> 	
 
@@ -67,7 +67,7 @@
                                     <button class="close" data-dismiss="modal" type=
                                     "button">x</button>
 
-                                    <h4 class="modal-title" id="myModalLabel">Image.</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Imagen.</h4>
                                 </div>
 
                                 <form action="<?php echo web_root; ?>admin/meals/controller.php?action=photos" enctype="multipart/form-data" method=
@@ -93,8 +93,8 @@
 
                                     <div class="modal-footer">
                                         <button class="btn btn-default" data-dismiss="modal" type=
-                                        "button">Close</button> <button class="btn btn-primary"
-                                        name="savephoto" type="submit">Upload Photo</button>
+                                        "button">Cerrar</button> <button class="btn btn-primary"
+                                        name="savephoto" type="submit">Subir foto</button>
                                     </div>
                                 </form>
                             </div><!-- /.modal-content

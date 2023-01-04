@@ -18,7 +18,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
         
         <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Update Meal</h1>
+            <h1 class="page-header">Actualizar Comida</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div>
@@ -27,7 +27,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
              <div class="form-group">
                     <div class="col-md-8">
                       <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "MEALS">Meal:</label>
+                      "MEALS">Comida:</label>
 
                       <div class="col-md-8">
                             <input type="hidden" name="MEALID" value="<?php echo $singlemeal->MEALID;  ?>">
@@ -40,7 +40,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                   <div class="form-group">
                     <div class="col-md-8">
                       <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "CATEGORYID">Category:</label>
+                      "CATEGORYID">Categoria:</label>
 
                       <div class="col-md-8">
                        <select class="form-control input-lg" name="CATEGORYID" id="CATEGORYID">
