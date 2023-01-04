@@ -30,14 +30,14 @@
     <div class="text-content container">
 
  <form id="contact-us" method="post" action="addcart.php?action=order">
-    <h2 align="center" class="page-header">Cart</h2>
+    <h2 align="center" class="page-header">Carta</h2>
  <?php check_message(); ?>
 	<table id="table" class="table table-responsive">
-		<th>Meal</th>
-		<th width="100">Price</th>
-		<th width="100">Qty</th>
+		<th>Comidas</th>
+		<th width="100">Precio</th>
+		<th width="100">Cantidad</th>
 		<th width="100">Sub-total</th>
-		<th width="100">Action</th>
+		<th width="100">Acción</th>
 		 <?php
 			$cart = 0;
 			$subtotal = 0;
@@ -80,7 +80,7 @@
 
 						 <div id="placeorder">
 						 	<div class="row">
-						 		<label class="col-xs-4" >Table No.</label>
+						 		<label class="col-xs-4" >N° Tabla</label>
 						 		<div class="col-xs-4">
 						 			<select class="form-control"  name="tableno" id="tableno"  >  
 

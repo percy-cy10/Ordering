@@ -7,11 +7,11 @@
     <table class="table table-bordered table-hover">
                             <thead>
                                 <tr> 
-                                    <th>Order No.</th> 
-                                    <th>Table No.</th>
-                                    <th>Cater</th>
-                                    <th>Status</th>
-                                    <th>Add New Meal</th>
+                                    <th>N° Orden</th> 
+                                    <th>N° Tabla</th>
+                                    <th>Proveer</th>
+                                    <th>Estado</th>
+                                    <th>Agregar nueva comida</th>
                                 </tr>
                             </thead>
                             <tbody>

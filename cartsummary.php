@@ -45,9 +45,9 @@ th{
  ?>
  <input type="hidden" name="rem" value="<?php echo $remarks; ?>">
 	<table id="table" class="table table-responsive" style="font-size:10px;padding: 0px;font-weight:bolder;">
-		<th>Comida</th>
+		<th>Comidas</th>
 		<th width="50">Precio</th>
-		<th width="50">Qty</th>
+		<th width="50">Cantidad</th>
 		<th width="60">Sub-total</th>
 		<th width="20">Accion</th>
 			<?php
@@ -93,7 +93,7 @@ th{
 
 						 <div id="placeorder">
 						 	<div class="row">
-						 		<label class="col-xs-4" style="font-size: 15px; text-align: center;" >Mesa No.</label>
+						 		<label class="col-xs-4" style="font-size: 15px; text-align: center;" >N° Mesa</label>
 						 		<div class="col-xs-3">
 						 			<select class="" style="font-size: 20px;height: 100%; width: 50px; text-align: center;" name="tableno" id="tableno"  >   
 					                          <?php

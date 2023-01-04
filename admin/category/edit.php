@@ -17,7 +17,7 @@
 
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CATEGORY">Category:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CATEGORY">Categoria:</label>
 
                       <div class="col-md-8">
                        <input  id="CATEGORYID" name="CATEGORYID"   type="HIDDEN" value="<?php echo $singlecategory->CATEGORYID; ?>">
@@ -36,7 +36,7 @@
 
                       <div class="col-md-8">
                       <!-- <a href="index.php" class="btn btn_fixnmix"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<strong>Back</strong></a> -->
-                      <button style="font-size: 20px; width: 100%;" class="btn btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                      <button style="font-size: 20px; width: 100%;" class="btn btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                    
                       </div>
                     </div>
