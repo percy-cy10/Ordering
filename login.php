@@ -26,9 +26,9 @@ require_once("include/initialize.php");
   </title>  
   
   <!--<link rel="icon" href="<?php echo web_root; ?>favicon-1.ico" type="image/x-icon">-->
-
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="<?php echo web_root; ?>admin/css/style.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <style>
 
     body {
@@ -49,25 +49,31 @@ require_once("include/initialize.php");
     <form action="" method="POST">
       <h1>Login</h1>
       <div>
-        <input style="font-size: 15px;" type="text" placeholder="Username..." required="" id="username"  name="user_email" />
+        <input style="font-size: 15px;" type="text" placeholder="Username" required="" id="username"  name="user_email" />
+        
       </div>
+      <br>
       <div>
-        <input style="font-size: 15px;" type="password" placeholder="Password..." required="" id="password" name="user_pass" />
+        <input style="font-size: 15px;" type="password" placeholder="Password" required="" id="password" name="user_pass" />
       </div>
+      <br>
       <div>
-        <input style="width: 92%;" type="submit" name="btnLogin" value="Ingresar"/>
+        <button style="width: 50%;"  type="submit" class="btn btn-primary" name="btnLogin"> 
+        <i class="fas fa-arrow-alt-circle-right"></i>  &nbsp;&nbsp;<b>Iniciar Sesión</b></button>
       </div>
+    <br>
     </form><!-- form -->
-    <div class="button">
-    <a style="font-size: 25px;">
-            <?php
-                $sql = "SELECT * FROM `tbltitle` WHERE TItleID=1";
-                $mydb->setQuery($sql);
-                $viewTitle = $mydb->loadSingleResult();
-                echo $viewTitle->Title;
-            ?>
+
+    <div class="card-footer text-muted">
+        
+        <a href="registro.php">
+          <button style="width: 35%;"  type="submit" class="btn btn-success" name="btnLogin"> 
+           &nbsp;&nbsp;<b>Crear cuenta</b></button>
+        
         </a>
-    </div><!-- button -->
+       
+    </div>
+
   </section><!-- content -->
 </div><!-- container -->
 </body>
@@ -130,7 +136,7 @@ if(isset($_POST['btnLogin'])){
          redirect(web_root."admin/index.php");
       } 
     }else{
-      message("Account does not exist! Please contact Administrator.", "error");
+      message("¡La cuenta no existe!", "error");
        redirect(web_root."login.php"); 
     }
  }
