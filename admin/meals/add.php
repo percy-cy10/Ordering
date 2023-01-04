@@ -67,7 +67,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                     </div>
                   </div>
             
-             <div class="form-group">
+            <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
                       "idno"></label>
@@ -78,26 +78,22 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                     </div>
                   </div>
 
-               
         <div class="form-group">
                 <div class="rows">
                   <div class="col-md-6">
                     <label class="col-md-6 control-label" for="otherperson"></label>
 
                     <div class="col-md-6">
-                   
+                  
                     </div>
                   </div>
 
                   <div class="col-md-6" align="right">
-                   
+                  
 
-                   </div>
+                  </div>
                   
               </div>
               </div>
           
         </form>
-      
-
-       
