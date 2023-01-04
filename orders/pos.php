@@ -40,7 +40,7 @@
     	<div class="col-lg-12">
     		<div class="row">
     			<div class="page-header">
-    				List of Orders 
+					Lista de pedidos 
     			</div> 
                     <div id="reload" class="scrollorder">
                         <table class="table table-bordered table-hover">
