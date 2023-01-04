@@ -52,7 +52,7 @@ switch ($action) {
 			$table->TABLENO	= $tableno;
 			$table->create();
 
-			message("New table number created successfully!", "success");
+			message("¡Nuevo número de mesa creado con éxito!", "éxito");
 			redirect("index.php");
 			
 		// }
@@ -67,7 +67,7 @@ switch ($action) {
 			$table->TABLENO	= $_POST['TABLENO'];
 			$table->update($_POST['TABLEID']);
 
-			message("Table number has been updated!", "success");
+			message("¡El número de la mesa ha sido actualizado!", "éxito");
 			redirect("index.php");
 		}
 
@@ -78,18 +78,18 @@ switch ($action) {
 		if (isset($_POST['save'])) {
 			# code...
 			$table = New Tables(); 
-			$table->STATUS	= 'Reserved';
+			$table->STATUS	= 'Reservado';
 			$table->RESERVEDTIME = $_POST['RESERVEDTIME'];
 			$table->CUSTOMER = $_POST['CUSTOMER'];
 			$table->update($_POST['TABLEID']); 
-			message("Table number has been reserved!", "success");
+			message("¡El número de mesa ha sido reservado.!", "éxito");
 		}else{
 			$table = New Tables(); 
-			$table->STATUS	= 'Available';
+			$table->STATUS	= 'Disponible';
 			$table->RESERVEDTIME = "";
 			$table->update($_GET['id']);
 
-			message("Table number has been Available!", "success");
+			message("¡El número de mesa ha estado disponible!", "success");
 
 		}
  			
@@ -127,7 +127,7 @@ switch ($action) {
 			$table = New Tables(); 
 			$table->delete($id);
 
-			message("Table number Deleted!","info");
+			message("Número de mesa ¡Eliminado!","info");
 			redirect('index.php');
 
 		// $id = $_POST['selector'];
