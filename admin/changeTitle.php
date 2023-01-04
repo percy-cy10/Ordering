@@ -15,7 +15,7 @@ require_once("../include/initialize.php");
 	 				<fieldset>
 				          <div class="form-group">
 				            <div class="col-md-10">
-				              <label style="font-size: 20px;" class="col-md-4 control-label" for="Title">Title:</label>
+				              <label style="font-size: 20px;" class="col-md-4 control-label" for="Title">Titulo</label>
 
 				              <div class="col-md-8">
 				              	<input name="" type="hidden" value="">
@@ -27,7 +27,7 @@ require_once("../include/initialize.php");
 				            <div class="col-md-10">
 				              <label class="col-md-4 control-label" for="idno"></label>
 				              <div class="col-md-8">
-				                <button style="width: 100%;" class="btn btn-primary btn-lg" name="save" type="submit" >Save</button>
+				                <button style="width: 100%;" class="btn btn-primary btn-lg" name="save" type="submit" >Guardar</button>
 				              </div>
 				            </div>
 				          </div>
