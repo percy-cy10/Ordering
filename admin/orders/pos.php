@@ -47,7 +47,7 @@ input[type="checkbox"]{
     	<div class="col-lg-12">
     		<div class="row">
     			<div class="page-header">
-    				List of Orders <a href="addorder.php" class="btn-primary btn btn-s" data-toggle="lightbox" data-title="New Order"><i class="fa fa-plus-circle"></i> New Order</a>
+    				Lista de pedidos <a href="addorder.php" class="btn-primary btn btn-s" data-toggle="lightbox" data-title="New Order"><i class="fa fa-plus-circle"></i> New Order</a>
     			</div> 
                     <div id="reload" class="scrollorder">
                         <table class="table table-bordered table-hover">

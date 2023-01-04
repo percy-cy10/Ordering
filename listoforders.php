@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="row"  style="margin: 50px 0px 0px 0px">
-        <h2 class="page-header">List of Orders</h2>
+        <h2 class="page-header">Lista de pedidos</h2>
     </div>
     <table class="table table-bordered table-hover">
                             <thead>

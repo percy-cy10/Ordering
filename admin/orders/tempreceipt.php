@@ -69,7 +69,7 @@
                 $viewTitle = mysql_fetch_assoc($res);
                 echo $viewTitle['Title'];
             ?></title></div>
-        <div style="text-align: center;font-size: 10px;">List of Orders</div>
+        <div style="text-align: center;font-size: 10px;">Lista de pedidos</div>
 <!--         <div style="text-align: center;font-size: 8px; margin-bottom: 10px;"><?php echo $remarks; ?></div> -->  
     <table class="tables">
         <tr style="border-bottom: .5px solid;padding-bottom:  2px;padding-top: 2px; font-size: 20px;">
