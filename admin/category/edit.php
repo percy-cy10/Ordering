@@ -12,7 +12,7 @@
  <form class="form-horizontal span6" action="controller.php?action=edit" method="POST">
 
           <fieldset>
-            <h1 class="page-header">Update Category</h1>
+            <h1 class="page-header">Actualizar categoría</h1>
                       
 
                   <div class="form-group">
