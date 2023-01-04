@@ -69,11 +69,9 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
             
              <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for=
-                      "idno"></label>
-
+                      <label class="col-md-4 control-label" for="idno"></label>
                       <div class="col-md-8">
-                        <button style="width: 100%;font-size: 15px;" class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                        <button style="width: 100%;font-size: 15px;" class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                       </div>
                     </div>
                   </div>

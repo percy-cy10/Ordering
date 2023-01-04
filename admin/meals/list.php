@@ -8,7 +8,7 @@
 		 
 		<div class="row">
        	 <div class="col-lg-12">
-            <h1 class="page-header">Lista de Comidas  <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Add Meal</a>  </h1>
+            <h1 class="page-header">Lista de Comidas  <a href="index.php?view=add" class="btn btn-primary btn-s  ">  <i class="fa fa-plus-circle fw-fa"></i> Agregar Comida</a>  </h1>
        		</div>
         	<!-- /.col-lg-12 -->
    		 </div>
@@ -45,9 +45,9 @@
 				  		echo '<td style="font-size:15px; width:100px">'. $result->CATEGORY.'</td>'; 
 				  		echo '<td style="font-size:15px;" width="100px"> s/ '.  number_format($result->PRICE,2).'</td>';  
 
-				  	 	echo '<td align="center" width="230px"> <a title="View Info" href="index.php?view=view&id='.$result->MEALID.'" class="btn btn-info btn-s  ">  <span class="fa  fa-info fw-fa "> View</a>
-				  	 	     <a title="Edit" href="index.php?view=edit&id='.$result->MEALID.'" class="btn btn-primary btn-s  ">  <span class="fa fa-pencil fw-fa"> Edit</a>
-				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->MEALID.'" class="btn btn-danger btn-s  ">  <span class="fa  fa-trash-o fw-fa "> Remove</a></td>';
+				  	 	echo '<td align="center" width="230px"> <a title="View Info" href="index.php?view=view&id='.$result->MEALID.'" class="btn btn-info btn-s  ">  <span class="fa  fa-info fw-fa "> Ver</a>
+				  	 	     <a title="Edit" href="index.php?view=edit&id='.$result->MEALID.'" class="btn btn-primary btn-s  ">  <span class="fa fa-pencil fw-fa"> Editar</a>
+				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->MEALID.'" class="btn btn-danger btn-s  ">  <span class="fa  fa-trash-o fw-fa "> Remover</a></td>';
 				  	} 
 				  	?>
 				  </tbody>
