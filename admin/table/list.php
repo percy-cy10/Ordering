@@ -33,36 +33,36 @@
 						foreach ($cur as $result) {
 				  		echo '<tr>'; 
 
-				  	    if ($result->STATUS=='Reservedo') {
+				  	    if ($result->STATUS=='Reserved') {
 				  			# code...
 
-				  			$btn = "Cancelar";
-				  			$reservebtn = "Cancelar";
-				  			$resdisable = "Deshabilitado";
-				  			$titlebtn = "Cancelar";
+				  			$btn = "Cancel";
+				  			$reservebtn = "Cancel";
+				  			$resdisable = "Disabled";
+				  			$titlebtn = "Cancel";
 				  			$disable = '';
 				  			$time =$result->RESERVEDTIME;
 				  			$url ="controller.php?action=reserve&id=".$result->TABLEID;
 				  			$customer = $result->CUSTOMER;
 				  			
-				  		}elseif ($result->STATUS=='Disponible') {
+				  		}elseif ($result->STATUS=='Available') {
 				  			# code...
-				  			$btn = "Reservar";
-				  			$reservebtn = "Reservar";
-				  			$titlebtn = "Cancelar";
+				  			$btn = "Reserve";
+				  			$reservebtn = "Reserve";
+				  			$titlebtn = "Cancel";
 				  			$resdisable = "";
 				  			$disable = ''; 
 				  	        $time ="";
 				  	        $url ="index.php?view=add&id=".$result->TABLEID;
 				  	        $customer = "";
 				  			 
-				  		}elseif ($result->STATUS=='Ocupado') {
+				  		}elseif ($result->STATUS=='Occupied') {
 				  			# code...
-				  		    $btn = "Ocupado";
-				  		    $reservebtn = "Reservar";
+				  		    $btn = "Occupied";
+				  		    $reservebtn = "Reserve";
 				  		    $resdisable = "";
-				  		    $titlebtn = "Cancelar";
-				  			$disable = 'Deshabilitado';
+				  		    $titlebtn = "Cancel";
+				  			$disable = 'Disabled';
 				  			//$time =$result->RESERVEDTIME;
 				  	        $customer = "";
 				  	        $time ="";
