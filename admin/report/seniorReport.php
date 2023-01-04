@@ -153,7 +153,7 @@
 					<input type="hidden" name="datefrom" value="<?php echo isset($_POST['date_pickerfrom']) ? $_POST['date_pickerfrom'] : "mm/dd/yy" ?>">
 					<input type="hidden" name="dateto" value="<?php echo isset($_POST['date_pickerto']) ? $_POST['date_pickerto'] : "mm/dd/yy" ?>">
 			
-				<button  type="submit"  class="btn btn-primary"><i class="fa fa-print"></i> Print Report</button>
+				<button  type="submit"  class="btn btn-primary"><i class="fa fa-print"></i> Imprimir reporte</button>
 		     	</form>
 	 			</div>
 	 		</div>

@@ -19,7 +19,7 @@
 				  <thead style="font-size: 18px;">
 				  	<tr>  
 				  		<th style="text-align: center;">Foto</th>  
-				  		<th>DEscripción de la Comida</th>
+				  		<th>Descripción de la Comida</th>
 				  		<th>Categorias</th>  
 				  		<th>Precio</th> 
 				  		<th style="text-align: center;">Accion</th> 

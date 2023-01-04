@@ -19,9 +19,9 @@
 				  		<th>Producto</th> 
 				  		<th>Descripcion</th>
 				  		<!-- <th>Category</th> -->
-				  		<th>Price</th>
+				  		<th>Precio</th>
 				  		<!-- <th>Quantity</th>   -->
-				  		<th>Action</th> 
+				  		<th>Acción</th> 
 				  		 
 				  	</tr>	
 				  </thead> 	

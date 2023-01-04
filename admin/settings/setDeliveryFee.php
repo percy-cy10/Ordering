@@ -15,7 +15,7 @@
 <form class="form-horizontal span6" action="controller.php?action=edit" method="POST" enctype="multipart/form-data"    >
  <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Set Delivery</h1>
+            <h1 class="page-header">Establecer entrega</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div> 
@@ -25,7 +25,7 @@
                  <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "PLACE">Location:</label>
+                      "PLACE">Localización:</label>
 
                       <div class="col-md-8">
                       <input  type="hidden" name="SETTINGID"  value="<?php echo $set->SETTINGID ?>">
@@ -51,7 +51,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "DELPRICE">Price:</label>
+                      "DELPRICE">Precio:</label>
 
                       <div class="col-md-8">
                              <input class="form-control input-sm" id="DELPRICE" name="DELPRICE" placeholder=
@@ -68,7 +68,7 @@
                       "idno"></label>
 
                       <div class="col-md-8">
-                        <button class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                        <button class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                       </div>
                     </div>
                   </div>
@@ -120,7 +120,7 @@
                       <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "DELPRICE">Price:</label>
+                      "DELPRICE">Precio:</label>
 
                       <div class="col-md-8">
                              <input class="form-control input-sm" id="DELPRICE" name="DELPRICE" placeholder=
@@ -137,7 +137,7 @@
                       "idno"></label>
 
                       <div class="col-md-8">
-                        <button class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                        <button class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                       </div>
                     </div>
                   </div>

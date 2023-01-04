@@ -44,7 +44,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                       <div class="col-md-8">
                        <select class="form-control input-lg" name="CATEGORYID" id="CATEGORYID">
-                          <option value="None">Select Category</option>
+                          <option value="None">selecciona una categoría</option>
                           <?php
                             //Statement
 
@@ -69,7 +69,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                   <div class="form-group">
                     <div class="col-md-8"> 
                        <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "PRICE">Price:</label>
+                      "PRICE">Precio:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder=

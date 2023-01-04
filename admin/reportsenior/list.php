@@ -64,7 +64,7 @@
 		</div>
 		<div class="wrap-content"> 
 			<label class="item" ></label>
-			<button class="item btn btn-primary btn-sm submit" type="submit" name="submit">View Report</button>   
+			<button class="item btn btn-primary btn-sm submit" type="submit" name="submit">Vista del informe</button>   
 		</div> 
     <div id="validaterecord"></div>
     <center>

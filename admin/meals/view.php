@@ -23,7 +23,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
          </a>  
         </div>
         <div class="col-md-6">
-            <h1><strong>Meal Details</strong></h1><br>
+            <h1><strong>Detalles de Comida</strong></h1><br>
             <div class="table-responsive">
             <table class="table table-condensed table-responsive table-user-information">
                 <tbody>
@@ -82,7 +82,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                   <button class="close" data-dismiss="modal" type=
                   "button">×</button>
 
-                  <h4 class="modal-title" id="myModalLabel">Change Image</h4>
+                  <h4 class="modal-title" id="myModalLabel">Cambiar imagen</h4>
                 </div>
 
                 <form action="controller.php?action=photos" enctype="multipart/form-data" method="post">
@@ -107,8 +107,8 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                   </div>
 
                   <div class="modal-footer">
-                    <button class="btn btn-default" data-dismiss="modal">Close</button> <button class="btn btn-primary"
-                    name="savephoto" type="submit">Upload Photo</button>
+                    <button class="btn btn-default" data-dismiss="modal">Cerrar</button> <button class="btn btn-primary"
+                    name="savephoto" type="submit">Subir foto</button>
                   </div>
                 </form>
               </div><!-- /.modal-content -->
