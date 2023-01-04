@@ -43,7 +43,7 @@
 				  		echo '<td style="font-size:15px;">'.$result->MEALS.'</a></td>';
 				  		
 				  		echo '<td style="font-size:15px; width:100px">'. $result->CATEGORY.'</td>'; 
-				  		echo '<td style="font-size:15px;" width="100px"> &#8369 '.  number_format($result->PRICE,2).'</td>';  
+				  		echo '<td style="font-size:15px;" width="100px"> s/ '.  number_format($result->PRICE,2).'</td>';  
 
 				  	 	echo '<td align="center" width="230px"> <a title="View Info" href="index.php?view=view&id='.$result->MEALID.'" class="btn btn-info btn-s  ">  <span class="fa  fa-info fw-fa "> View</a>
 				  	 	     <a title="Edit" href="index.php?view=edit&id='.$result->MEALID.'" class="btn btn-primary btn-s  ">  <span class="fa fa-pencil fw-fa"> Edit</a>
