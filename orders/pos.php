@@ -40,11 +40,7 @@
     	<div class="col-lg-12">
     		<div class="row">
     			<div class="page-header">
-<<<<<<< Updated upstream
 					Lista de pedidos 
-=======
-    				Lista de Ordenes
->>>>>>> Stashed changes
     			</div> 
                     <div id="reload" class="scrollorder">
                         <table class="table table-bordered table-hover">
