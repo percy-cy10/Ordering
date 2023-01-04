@@ -9,14 +9,14 @@
 
            <div class="row">
          <div class="col-lg-12">
-            <h1 class="page-header">Add New Autonumber</h1>
+            <h1 class="page-header">Agregar nueva numeración automática</h1>
           </div>
           <!-- /.col-lg-12 -->
        </div> 
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "AUTOSTART">Start:</label>
+                      "AUTOSTART">Comienza:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="AUTOSTART" name="AUTOSTART" placeholder=
@@ -28,7 +28,7 @@
                    <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "AUTOEND">End:</label>
+                      "AUTOEND">Termina:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="AUTOEND" name="AUTOEND" placeholder=
@@ -40,7 +40,7 @@
                      <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "AUTOKEY">Key:</label>
+                      "AUTOKEY">Id:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-sm" id="AUTOKEY" name="AUTOKEY" placeholder=
