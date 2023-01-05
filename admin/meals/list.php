@@ -47,7 +47,7 @@
 
 				  	 	echo '<td align="center" width="230px"> <a title="View Info" href="index.php?view=view&id='.$result->MEALID.'" class="btn btn-info btn-s  ">  <span class="fa  fa-info fw-fa "> Ver</a>
 				  	 	     <a title="Edit" href="index.php?view=edit&id='.$result->MEALID.'" class="btn btn-primary btn-s  ">  <span class="fa fa-pencil fw-fa"> Editar</a>
-				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->MEALID.'" class="btn btn-danger btn-s  ">  <span class="fa  fa-trash-o fw-fa "> Remover</a></td>';
+				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->MEALID.'" class="btn btn-danger btn-s  ">  <span class="fa  fa-trash-o fw-fa "> Borrar</a></td>';
 				  	} 
 				  	?>
 				  </tbody>

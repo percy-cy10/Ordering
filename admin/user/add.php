@@ -36,18 +36,18 @@
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
-                         <input class="form-control input-lg" id="U_NAME" name="U_NAME" placeholder="User Fullname" type="text" value="">
+                         <input class="form-control input-lg" id="U_NAME" name="U_NAME" placeholder="Nombres" type="text" value="">
                       </div>
                     </div>
                   </div>
 
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="U_USERNAME">Nombre de usuario:</label>
+                      <label class="col-md-4 control-label" for="U_USERNAME">Nombre de Usuario:</label>
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" value="">
-                         <input class="form-control input-lg" id="U_USERNAME" name="U_USERNAME" placeholder="Account Username" type="text" value="">
+                         <input class="form-control input-lg" id="U_USERNAME" name="U_USERNAME" placeholder="Nombre de Usuario" type="text" value="">
                       </div>
                     </div>
                   </div>
@@ -58,7 +58,7 @@
 
                       <div class="col-md-8">
                         <input name="deptid" type="hidden" minlength="2" value="">
-                         <input class="form-control input-lg" id="U_PASS" min="3" name="U_PASS" placeholder="Account Password" type="Password" value="" required>
+                         <input class="form-control input-lg" id="U_PASS" min="3" name="U_PASS" placeholder="Digitar Contraseña" type="Password" value="" required>
                       </div>
                     </div>
                   </div>

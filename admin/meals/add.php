@@ -19,7 +19,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                     <div class="col-md-8">
                       <label style="font-size: 20px;" class="col-md-4 control-label" for="MEALS">Comida:</label>
                       <div class="col-md-8">
-                        <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Input Meal Description" type="text" value="" required>
+                        <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Descripción de la Comida" type="text" value="" required>
                       </div>
                     </div>
                   </div>  
@@ -52,7 +52,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                       <div class="col-md-8">
                          <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder=
-                            "&#8369 Price " type="text" value="" required>
+                            "s/" type="text" value="" required>
                       </div>
                     </div>
                   </div>
