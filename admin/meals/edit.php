@@ -29,7 +29,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                       <div class="col-md-8">
                             <input type="hidden" name="MEALID" value="<?php echo $singlemeal->MEALID;  ?>">
-                            <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Meal" type="text" value="<?php echo $singlemeal->MEALS ?>" required>
+                            <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Comida" type="text" value="<?php echo $singlemeal->MEALS ?>" required>
                       </div>
                     </div>
                   </div> 
@@ -67,7 +67,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                     <div class="col-md-8"> 
                        <label style="font-size: 20px;" class="col-md-4 control-label" for="PRICE">Precio:</label>
                       <div class="col-md-8">
-                         <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder="&#8369 Price " type="text" value="<?php echo $singlemeal->PRICE?>" required>
+                         <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder="s/" type="text" value="<?php echo $singlemeal->PRICE?>" required>
                       </div>
                     </div>
                   </div>
