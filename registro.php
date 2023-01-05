@@ -19,22 +19,22 @@
         }
 
         .container{
-            margin:50px 0% 0px 550px;
+            margin:50px 0% 0px 525px;
         }
 
         button{
-            margin:0px 0% 0px 60px;
+            margin:0px 0% 0px 95px;
         }
     </style>
 
 </head>
 <body>
 
-    <form action="guardar.php" method="post" class = 'was-validated'>
+    <form action="guardar.php" method="get" class = 'was-validated'>
 
                 
         <div class="container">
-            <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 25rem;">
                 <div class="card-header">
                     <h1 style="text-align: center;color:black;">INGRESE SUS DATOS</h1>
                 </div>
@@ -53,6 +53,7 @@
             </div>
         </div>
 
+        <h1>HOLA MUNDO</h1>
     </form>
 
 </body>
