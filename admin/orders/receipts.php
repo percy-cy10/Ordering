@@ -72,10 +72,10 @@ date_default_timezone_set('Asia/Manila');
 <div id="wrapper">
     <div class="container">
         <div style="text-align: center;font-size: 10px;"><?php
-                $query = "SELECT * FROM `tbltitle` WHERE TItleID=1";
-                $res = mysql_query($query) or die(mysql_error());
-                $viewTitle = mysql_fetch_assoc($res);
-                echo $viewTitle['Title'];
+                //$query = "SELECT * FROM `tbltitle` WHERE TItleID=1";
+                //$res = mysql_query($query) or die(mysql_error());
+                //$viewTitle = mysql_fetch_assoc($res);
+                //echo $viewTitle['Title'];
             ?></title></div>
         <div style="text-align: center;font-size: 8px;">Ubicado en Centro de la Ciudad, Av.La Torre</div>
         <div style="text-align: center;font-size: 8px;">Puno, Perú</div>
@@ -113,10 +113,10 @@ date_default_timezone_set('Asia/Manila');
                                     echo '<td colspan="3" style="font-size:9px; padding-top:5px;">'.$result->DESCRIPTION.'</td>';
                                 echo '</tr>';
                                 echo '<tr>';
-                                    echo '<td style="padding-bottom:5px;">Qty: '.$result->QUANTITY.'</td>';
-                                    //echo '<td style="font-size:10px;"></td>';
-                                    echo '<td style="padding-bottom:5px;" colspan="2" align="right">Amount: '.number_format($result->SUBTOTAL,2).'</td>';
-                                    //echo '<td style="font-size:10px;" align="right"></td>';
+                                    echo '<td style="padding-bottom:5px;">Cantidad: '.$result->QUANTITY.'</td>';
+                                    echo '<td style="font-size:10px;"></td>';
+                                    echo '<td style="padding-bottom:5px;" colspan="2" align="right">Monto: '.number_format($result->SUBTOTAL,2).'</td>';
+                                    echo '<td style="font-size:10px;" align="right"></td>';
                                     echo '</td>';
                                 echo '</tr>';
 

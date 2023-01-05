@@ -66,7 +66,7 @@
                 $viewTitle = mysql_fetch_assoc($res);
                 echo $viewTitle['Title'];
             ?></title></div>
-        <div style="text-align: center;">Customer Receipt</div>
+        <div style="text-align: center;">Recibo del cliente</div>
         <div style="text-align: center;font-size: 13px; margin-bottom: 10px;"><?php echo $remarks; ?></div>
         <table class="tables" style="border: 0; width: 550px;">
             <tr>
@@ -136,12 +136,12 @@
                             <th  width="100"><?php echo number_format($total,2); ?></th>
                         </tr>
                         <tr> 
-                            <th colspan="3" style="text-align:right;">Tender Amount</th>
+                            <th colspan="3" style="text-align:right;">Importe de la oferta</th>
                             <th  width="100"><?php echo number_format($res->TENDEREDAMOUNT,2); ?></th>
                         </tr>
                         <tr>
-                            <th>Thank You for Coming... |</th>
-                            <th colspan="2" style="text-align:right;">Changed</th>
+                            <th>Gracias por venir... |</th>
+                            <th colspan="2" style="text-align:right;">Cambio</th>
                             <th  width="100"><?php echo number_format($res->PCHANGE,2); ?></th>
                         </tr>
                        
