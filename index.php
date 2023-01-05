@@ -1,12 +1,12 @@
 <?php
 require_once("include/initialize.php");
- if (!isset($_SESSION['WAITER_USERID'])){
-      redirect(web_root."login.php");
- }
+if (!isset($_SESSION['WAITER_USERID'])){
+	redirect(web_root."login.php");
+}
 
 $view = (isset($_GET['view']) && $_GET['view'] != '') ? $_GET['view'] : '';
- 
- $header=$view; 
+
+$header=$view; 
 switch ($view) {
 	case 'cart' :
 		$content    = 'cart.php';		

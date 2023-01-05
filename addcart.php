@@ -25,13 +25,11 @@ switch ($action) {
 	}
 
 
-   
 	function doInsert(){
-	 
 
 if(isset($_POST['submit'])){
 		$remarks = isset($_POST['REMARKS']) ? $_POST['REMARKS'] : '';
-   	  	$id = $_POST['mealid'];
+		$id = $_POST['mealid'];
 		$meals = $_POST['meals'];
 		$price = $_POST['price'];
 		$qty = $_POST['qty'];
@@ -39,30 +37,22 @@ if(isset($_POST['submit'])){
 
 		addtocart($id,$meals,$price,$qty,$subtotal);
 
-		 $category = isset($_GET['category']) ? $_GET['category'] : "ALL";
+		$category = isset($_GET['category']) ? $_GET['category'] : "ALL";
 
 		redirect("index.php?view=menu&category=".$category."&rem=".$remarks);
     
 	}
 }
-		 
-
- 
 
 function doEdit(){
 
-  if (isset($_POST['mealid'])){   
-   
-      $mealid=$_POST['mealid'];
- 
-       $qty=intval(isset($_POST['QTY']) ? $_POST['QTY'] : ""); 
- 
-       editproduct($mealid,$qty); 
-     
-   }
+	if (isset($_POST['mealid'])){   
+
+    	$mealid=$_POST['mealid'];
+    	$qty=intval(isset($_POST['QTY']) ? $_POST['QTY'] : ""); 
+    	editproduct($mealid,$qty); 
+	}
 }
-   
- 
 
 function doDelete(){ 
 if(isset($_GET['id'])) {
@@ -70,7 +60,7 @@ if(isset($_GET['id'])) {
 	removetocart($_GET['id']);
 	$countcart =isset($_SESSION['gcCart'])? count($_SESSION['gcCart']) : "0";
 	if($countcart==0){
-		 
+
 	unset($_SESSION['gcCart']);
 
 		message("Cart is empty.","success");
@@ -80,7 +70,6 @@ if(isset($_GET['id'])) {
 	} 
 		// redirect(web_root."index.php?view=cart");
 	redirect(web_root."index.php?view=menu&rem=".$remarks);
-  
 	}
 
 }
@@ -88,13 +77,13 @@ if(isset($_GET['id'])) {
 function doOrder(){
 	if (isset($_POST['submit'])) {
 		# code...
-		 $autonum = New Autonumber();
-         $orderno = $autonum->set_autonumber('ordernumber');
+		$autonum = New Autonumber();
+        $orderno = $autonum->set_autonumber('ordernumber');
 
-         $remarks = isset($_POST['rem']) ? $_POST['rem'] : '';
+        $remarks = isset($_POST['rem']) ? $_POST['rem'] : '';
 
-		 if (!empty($_SESSION['gcCart'])){     
-		 	$count_cart = count($_SESSION['gcCart']); 
+		if (!empty($_SESSION['gcCart'])){     
+			$count_cart = count($_SESSION['gcCart']); 
 				for ($i=0; $i < $count_cart  ; $i++) { 
 
 					$order = new Order();
@@ -111,23 +100,21 @@ function doOrder(){
 					$order->REMARKS 			= $remarks;
 					$order->create();
 				}
-		 }
+		}
 
-		 $tableno = new Tables();
-		 $tableno->STATUS       = 'Occupied';
-		 $tableno->RESERVEDDATE = date('Y-m-d');
-		 $tableno->updatestats(@$_POST['tableno']);
+		$tableno = new Tables();
+		$tableno->STATUS       = 'Occupied';
+		$tableno->RESERVEDDATE = date('Y-m-d');
+		$tableno->updatestats(@$_POST['tableno']);
 
-		 $autonum = New Autonumber(); 
-		 $autonum->auto_update('ordernumber');
+		$autonum = New Autonumber(); 
+		$autonum->auto_update('ordernumber');
 
-		 unset($_SESSION['gcCart']);
+		unset($_SESSION['gcCart']);
 
-		 message("Order successfully submitted.","success");
+		message("Order successfully submitted.","success");
 
-		 redirect(web_root."index.php");
+		redirect(web_root."index.php");
 	}
-
 }
-	 
 ?>
