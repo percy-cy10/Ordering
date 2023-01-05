@@ -226,16 +226,20 @@ date_default_timezone_set('Asia/Manila');
                             </tr >
                             <tr><td></td></tr>
                             <tr>
-                                <td colspan="3" style="text-align: left; font-size: 8px; padding-top: 5px; border-top: .5px dashed;">Dale me gusta y comparte nuestra página de Facebook:</td>
+                                <td colspan="3" style="text-align: left; font-size: 8px; padding-top: 5px; border-top: .5px dashed;">
+                                Dale me gusta y comparte nuestra página de Facebook:
+                                </td>
                             </tr>
                             <tr>
                                 <td colspan="3" style="text-align: center; font-size: 8px; ">https://es-la.facebook.com/foodsy.io/</td>
                             </tr>
                         <tr>
-                            <td style="padding-top: 5px;" colspan="3" align="center">Solicite su recibo oficial.</td>
+                            <td style="padding-top: 5px;" colspan="3" align="center">
+                            Solicite su recibo oficial.
+                            </td>
                         </tr>
                         <tr>  
-                            <td colspan="3" style="padding-top: 5px; padding-bottom: 5px; text-align: center;margin-bottom: 5px;">Gracias por venir...</td>
+                            <td colspan="3" style="padding-top: 5px; padding-bottom: 5px; text-align: center;margin-bottom: 5px;">Thank You for Coming...</td>
                         </tr>
                         <tr style="border-bottom: .5px solid;">
                             <td style="margin-top: 5px; font-size: 8px;">Fecha: <?php echo date('M-d-Y'); ?></td>

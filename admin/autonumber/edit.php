@@ -19,21 +19,25 @@
        </div> 
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="AUTOSTART">Comienza:</label>
+                      <label class="col-md-4 control-label" for=
+                      "AUTOSTART">Comienza:</label>
 
                       <div class="col-md-8">
                       <input  type="hidden" name="AUTOKEY" id="AUTOKEY" value="<?php  echo $singleauto->AUTOKEY; ?>">
-                         <input class="form-control input-sm" id="AUTOSTART" name="AUTOSTART" placeholder="Start" type="text" value="<?php  echo $singleauto->AUTOSTART; ?>">
+                         <input class="form-control input-sm" id="AUTOSTART" name="AUTOSTART" placeholder=
+                            "Start" type="text" value="<?php  echo $singleauto->AUTOSTART; ?>">
                       </div>
                     </div>
                   </div> 
 
                    <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="AUTOEND">Termina:</label>
+                      <label class="col-md-4 control-label" for=
+                      "AUTOEND">Termina:</label>
 
                       <div class="col-md-8">
-                         <input class="form-control input-sm" id="AUTOEND" name="AUTOEND" placeholder="End" type="text" value="<?php  echo $singleauto->AUTOEND; ?>">
+                         <input class="form-control input-sm" id="AUTOEND" name="AUTOEND" placeholder=
+                            "End" type="text" value="<?php  echo $singleauto->AUTOEND; ?>">
                       </div>
                     </div>
                   </div>
@@ -43,7 +47,8 @@
             
              <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="idno"></label>
+                      <label class="col-md-4 control-label" for=
+                      "idno"></label>
 
                       <div class="col-md-8">
                       <!-- <a href="index.php" class="btn btn_fixnmix"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<strong>Back</strong></a> -->
@@ -59,7 +64,8 @@
         <div class="form-group">
                 <div class="rows">
                   <div class="col-md-6">
-                    <label class="col-md-6 control-label" for="otherperson"></label>
+                    <label class="col-md-6 control-label" for=
+                    "otherperson"></label>
 
                     <div class="col-md-6">
                    

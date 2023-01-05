@@ -32,7 +32,8 @@
         <div class="form-group">
                 <div class="rows">
                   <div class="col-md-6">
-                    <label class="col-md-6 control-label" for="otherperson"></label>
+                    <label class="col-md-6 control-label" for=
+                    "otherperson"></label>
 
                     <div class="col-md-6">
                    

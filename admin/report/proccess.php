@@ -66,7 +66,8 @@ header("Expires: 0");
                 echo $viewTitle['Title'];
             ?></h2>
     <h2 align="center">Reporte de ventas</h2>
-    <p  style="font-size:25px;text-align: center;">Fechas Inclusivas<?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> | <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
+    <p  style="font-size:25px;text-align: center;">
+    Fechas Inclusivas<?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> | <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
     
         <table class="tbl mytblprint" border="1" style="width: 900px;padding: 0px;margin: 0px; text-align: center; "  >
         <thead>

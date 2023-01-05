@@ -321,9 +321,9 @@ $(document).on("click", ".seniorcitizen",function(){
     try {
         // alert(subtot)
       document.getElementById("SENIORADDNO").disabled = true
-      document.getElementById("SENIORID").disabled = true
+    document.getElementById("SENIORID").disabled = true
       document.getElementById("SENIORADDNO").value = ""
-      document.getElementById("SENIORID").value = ""
+    document.getElementById("SENIORID").value = ""
        var totsub=0;
         totsub = parseFloat(subtot) + parseFloat(0);
 

@@ -21,7 +21,8 @@
 
                       <div class="col-md-8">
                        <input  id="CATEGORYID" name="CATEGORYID"   type="HIDDEN" value="<?php echo $singlecategory->CATEGORYID; ?>">
-                         <input class="form-control input-lg" id="CATEGORY" name="CATEGORY" placeholder="Category" type="text" value="<?php echo $singlecategory->CATEGORY; ?>" required>
+                         <input class="form-control input-lg" id="CATEGORY" name="CATEGORY" placeholder=
+                            "Category" type="text" value="<?php echo $singlecategory->CATEGORY; ?>" required>
                       </div>
                     </div>
                   </div>
@@ -30,7 +31,8 @@
             
              <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for="idno"></label>
+                      <label class="col-md-4 control-label" for=
+                      "idno"></label>
 
                       <div class="col-md-8">
                       <!-- <a href="index.php" class="btn btn_fixnmix"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<strong>Back</strong></a> -->
@@ -46,7 +48,8 @@
         <div class="form-group">
                 <div class="rows">
                   <div class="col-md-6">
-                    <label class="col-md-6 control-label" for="otherperson"></label>
+                    <label class="col-md-6 control-label" for=
+                    "otherperson"></label>
 
                     <div class="col-md-6">
                    

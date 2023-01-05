@@ -16,7 +16,8 @@ class Summary {
 	
 	function single_summary($id=""){
 			global $mydb;
-			$mydb->setQuery("SELECT * FROM ".self::$tblname." Where ORDERNO= '{$id}' LIMIT 1");
+			$mydb->setQuery("SELECT * FROM ".self::$tblname." 
+				Where ORDERNO= '{$id}' LIMIT 1");
 			$cur = $mydb->loadSingleResult();
 			return $cur;
 	}

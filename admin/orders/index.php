@@ -37,7 +37,7 @@ switch ($view) {
 		break;
 
 	case 'customerdetails' :
-	 	$header = "Customer Details";
+		$header = "Customer Details";
 		$content    = 'customerdetail.php';		
 		break;
 

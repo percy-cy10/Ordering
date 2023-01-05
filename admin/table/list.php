@@ -16,7 +16,9 @@
 				  <thead>
 				  	<tr>
 				  		<!-- <th>No.</th> -->
-				  		<th style="font-size: 15px; text-align: center;" width="10%"> Numero Mesa</th>
+				  		<th style="font-size: 15px; text-align: center;" width="10%">
+				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
+				  		 Numero Mesa</th>
 				  		 <th style="font-size: 15px;" width="20%">Cliente</th> 
 				  		 <th style="font-size: 15px;" width="11%">Tiempo</th>
 				  		 <th style="font-size: 15px; text-align: center;" width="10%">Estado</th>
