@@ -4,7 +4,7 @@
     if (isset($_POST['MEALID'])){//add to cart
       $subtotal = 0;
       $mealid = $_POST['MEALID']; 
-      $query = "SELECT * FROM `tblmeals` WHERE  MEALID='".$mealid."'";
+      $query = "SELECT * FROM 'tblmeals' WHERE  MEALID='".$mealid."'";
       $mydb->setQuery($query);
       $cur = $mydb->loadSingleResult();  
 
@@ -80,7 +80,7 @@
                                       ?>
                                     <?php
                                       //Statement
-                                    $mydb->setQuery("SELECT * FROM `tbltable`  WHERE STATUS='Available'  order by TABLENO asc");
+                                    $mydb->setQuery("SELECT * FROM 'tbltable'  WHERE STATUS='Available'  order by TABLENO asc");
                                     $cur = $mydb->loadResultList();
 
                                   foreach ($cur as $result) {

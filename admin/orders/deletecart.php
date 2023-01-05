@@ -73,7 +73,7 @@ require_once ("../../include/initialize.php");
                                       ?>
                                     <?php
                                       //Statement
-                                    $mydb->setQuery("SELECT * FROM `tbltable`   order by TABLENO asc");
+                                    $mydb->setQuery("SELECT * FROM 'tbltable'   order by TABLENO asc");
                                     $cur = $mydb->loadResultList();
 
                                   foreach ($cur as $result) {

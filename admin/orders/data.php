@@ -33,7 +33,7 @@ if(isset($_POST['orderlist'])){
 </table>
 <?php }  
 if(isset($_POST['msg'])){
-       $query = "SELECT * FROM `tblorders`  
+       $query = "SELECT * FROM 'tblorders'  
              WHERE  STATUS='Pending' GROUP BY ORDERNO ";
         $mydb->setQuery($query);
         $cur = $mydb->executeQuery(); 
