@@ -20,13 +20,13 @@
     $h_upass = sha1($contraseña);
 
 
-    if($rol == 'Administrador'){
+    if($rol == 'administrador'){
         $rol = 'Administrator';
     }
-    if($rol == 'Cliente'){
+    if($rol == 'cliente'){
         $rol = 'Waiter';
     } 
-    if($rol == 'Cajero'){
+    if($rol == 'cajero'){
         $rol = 'Cashier';
     }
     $sql = "INSERT INTO tblusers (USERID, FULLNAME, USERNAME, PASS, ROLE) VALUES ('', '$fullname', '$usuario', '$h_upass', '$rol')";
