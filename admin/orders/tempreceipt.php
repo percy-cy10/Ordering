@@ -66,8 +66,8 @@
         <div style="text-align: center;font-size: 10px;"><?php
                 $query = "SELECT * FROM `tbltitle` WHERE TItleID=1";
                 //$res = mysql_query($query) or die(mysql_error());
-                $viewTitle = mysql_fetch_assoc($res);
-                echo $viewTitle['Title'];
+                //$viewTitle = mysql_fetch_assoc($res);
+                //echo $viewTitle['Title'];
             ?></title></div>
         <div style="text-align: center;font-size: 10px;">Lista de pedidos</div>
 <!--         <div style="text-align: center;font-size: 8px; margin-bottom: 10px;"><?php echo $remarks; ?></div> -->  
@@ -77,8 +77,8 @@
         </tr> 
         <tr style="border-bottom: .2px solid;padding: 5px; margin-top: 10px;">
             <td width="30px;" style="font-size: 10px; font-weight: bold; margin-right: 5px; padding-top: 5px; padding-bottom: 5px;">Cantidad</td>
-            <td width="130px" style="font-size: 10px; font-weight: bold; padding-top: 5px; padding-bottom: 5px;">Descripcion</td>
-            <!-- <td align="right">Amount</td> -->
+            <td align="center" style="font-size: 10px; font-weight: bold; padding-top: 5px; padding-bottom: 5px;">Descripcion</td>
+            <td align="right">Monto</td> 
         </tr>
         <?php 
                         $total = 0;
@@ -101,9 +101,8 @@
                                 foreach ($cur as $result) { 
                                 echo '<tr>'; 
                                 echo '<td style="font-size:15px; font-weight:bold; padding-top:5px; padding-bottom:5px; text-align:center;">'.$result->QUANTITY.'</td>';
-                                echo '<td style="font-size:10px; margin-top: 10px; padding-top:5px;
-                                padding-bottom:5px;">'.$result->DESCRIPTION.'</td>'; 
-                                // echo '<td align="right">'.$result->SUBTOTAL.'</td>'; 
+                                echo '<td style="font-size:10px; margin-top: 10px; padding-top:5px; padding-bottom:5px;text-align:center;">'.$result->DESCRIPTION.'</td>'; 
+                                echo '<td align="right">'.$result->SUBTOTAL.'</td>'; 
                                 echo '</tr>';
 
                                 $total += $result->SUBTOTAL; 
@@ -122,13 +121,13 @@
                             
                         ?>
 
-  <tr  >
-            <td  colspan="2" style="border-top: .5px solid;padding-bottom:  2px;padding-top:10px;"></td>
+        <tr  >
+            <td  colspan="3" style="border-top: .5px solid;padding-bottom:  5px;padding-top:10px;"></td>
         </tr>
                          <?php  
-                            // $summary = New Summary();
-                            // $res     = $summary->single_summary($orderno);
-                            // $senior =   $res->DISCOUNTSENIOR; 
+                            $summary = New Summary();
+                            $res     = $summary->single_summary($orderno);
+                            //$senior =   $res->DISCOUNTSENIOR; 
 
                             ?> 
                         <!-- summary -->  
@@ -136,11 +135,11 @@
                        
 
 
-                        <!--<tr>
-                            <td colspan="2">Gross Charge </td>
-                             <td  align="right"  style="border-bottom: .5px dashed" ><?php echo number_format($total,2); ?></td>
+                        <tr>
+                            <td colspan="2">Cargo bruto </td>
+                             <td  align="right" ><?php echo number_format($total,2); ?></td>
                         </tr>
-                        <tr> 
+                       <!-- <tr> 
                             <td><?php echo $waiter; ?></td>
                             <td></td>
                             <td><?php echo $_SESSION['ADMIN_FULLNAME']; ?></td> 
@@ -151,7 +150,7 @@
                             <td></td>
                             <td style="border-top: .5px dashed;"><?php echo 'Cashier'; ?></td> 
 
-                            </tr > -->
+                            </tr >-->
                            
                         
     </table>
