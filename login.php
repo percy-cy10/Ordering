@@ -95,7 +95,7 @@ if(isset($_POST['btnLogin'])){
   
    if ($email == '' OR $upass == '') {
 
-      message("Invalid Username or Password!", "error");
+      message("Usuario o contraseña invalido", "error");
       redirect("login.php");
          
     } else {  

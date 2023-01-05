@@ -30,7 +30,7 @@
 </head>
 <body>
 
-    <form action="guardar.php" method="get" class = 'was-validated'>
+    <form action="guardar.php" method="post" class = 'was-validated'>
 
                 
         <div class="container">
@@ -39,13 +39,25 @@
                     <h1 style="text-align: center;color:black;">INGRESE SUS DATOS</h1>
                 </div>
                 <div class="card-body">
-                         <label for="validationDefault01">Usuario</label>
+                        <label for="validationDefault01">Nombre Completo</label>
+                        <input type="text" class="form-control" id="Fullname" name="Fullname" placeholder="Fullname" required>
+                        
+                        <br>
+                        <label for="validationDefault01">Usuario</label>
                         <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario" required>
                     
                         <br>
                         <label for="validationDefault02">Contraseña</label>
-                        <input type="text" class="form-control"  id="contraseña" name="contraseña" placeholder="Contraseña" required>
-                    
+                        <input type="password" class="form-control"  id="contraseña" name="contraseña" placeholder="Contraseña" required>
+
+                        <br>
+                        <label for="exampleFormControlSelect1">Rol</label>
+                        <select class="form-control" id="rol" name="rol" >
+                            <option value="cliente">Cliente</option>
+                            <option value="cajero">Cajero</option>
+                            <option value="administrador">Administrador</option>
+                        </select>
+
                         <br>
                         <button type="submit" class="btn btn-primary" name="btnLogin"> 
                         <i class="fas fa-arrow-alt-circle-right"></i>  &nbsp;&nbsp;<b>Crear Usuario</b></button>
@@ -53,7 +65,7 @@
             </div>
         </div>
 
-        <h1>HOLA MUNDO</h1>
+        
     </form>
 
 </body>
