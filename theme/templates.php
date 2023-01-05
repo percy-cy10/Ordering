@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title><?php
-                $sql = "SELECT * FROM `tbltitle` WHERE TItleID=1";
+                $sql = "SELECT * FROM 'tbltitle' WHERE TItleID=1";
                  $mydb->setQuery($sql);
                 $viewTitle = $mydb->loadSingleResult();
                 echo $viewTitle->Title;
