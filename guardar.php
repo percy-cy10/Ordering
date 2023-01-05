@@ -19,6 +19,16 @@
     $rol = $_POST['rol'];
     $h_upass = sha1($contraseña);
 
+
+    if($rol == 'Administrador'){
+        $rol = 'Administrator';
+    }
+    if($rol == 'Cliente'){
+        $rol = 'Waiter';
+    } 
+    if($rol == 'Cajero'){
+        $rol = 'Cashier';
+    }
     $sql = "INSERT INTO tblusers (USERID, FULLNAME, USERNAME, PASS, ROLE) VALUES ('', '$fullname', '$usuario', '$h_upass', '$rol')";
 
     if (mysqli_query($conn, $sql)) {
