@@ -22,17 +22,14 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
           </div>
           <!-- /.col-lg-12 -->
        </div>
-       <form class="form-horizontal span6" action="controller.php?action=edit" method="POST"  />
- 
+       <form class="form-horizontal span6" action="controller.php?action=edit" method="POST"></form>
              <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "MEALS">Comida:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="MEALS">Comida:</label>
 
                       <div class="col-md-8">
                             <input type="hidden" name="MEALID" value="<?php echo $singlemeal->MEALID;  ?>">
-                            <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder=
-                            "Meal" type="text" value="<?php echo $singlemeal->MEALS ?>" required>
+                            <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Meal" type="text" value="<?php echo $singlemeal->MEALS ?>" required>
                       </div>
                     </div>
                   </div> 

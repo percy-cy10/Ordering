@@ -15,12 +15,11 @@
        </div> 
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for=
-                      "CATEGORY">Categoria:</label>
+                      <label class="col-md-4 control-label" for="CATEGORY">Categoria:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-lg" id="CATEGORY" name="CATEGORY" placeholder=
-                            "New Category Name..." type="text" value="" required>
+                            "NOmbre Nuevo de la Categoria..." type="text" value="" required>
                       </div>
                     </div>
                   </div>
@@ -43,8 +42,7 @@
         <div class="form-group">
                 <div class="rows">
                   <div class="col-md-6">
-                    <label class="col-md-6 control-label" for=
-                    "otherperson"></label>
+                    <label class="col-md-6 control-label" for="otherperson"></label>
 
                     <div class="col-md-6">
                    

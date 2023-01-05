@@ -65,8 +65,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav main-nav  clear navbar-right ">   
                              <li><a class="color_animation <?php echo (publiccurrentpage() == 'index.php') ? "navactive" : "";?>" href="<?php echo web_root ;?>index.php">Inicio</a></li>
-                            <li><a class="color_animation  <?php echo (publiccurrentpage() == 'orders') ? "navactive" : "";?>" href="<?php echo web_root ;?>orders/">
-                             Lista de Pedidos</a>
+                            <li><a class="color_animation  <?php echo (publiccurrentpage() == 'orders') ? "navactive" : "";?>" href="<?php echo web_root ;?>orders/">Lista de Pedidos</a>
                             </li> 
                             <li><a class="color_animation">
                             <i class="fa fa-user"></i> Bienvenido <?php echo $_SESSION['WAITER_FULLNAME']; ?></a>

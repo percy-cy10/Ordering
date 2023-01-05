@@ -56,8 +56,7 @@
 <div id="container">
     <div class="page-header"><h1 align="center">Foodsy</h1>
     <h4 align="center">Reporte de Ventas con Senior</h4>
-    <p  style="font-size:15px;text-align: center;">
-    Inclusive Dates <?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
+    <p  style="font-size:15px;text-align: center;">Inclusive Dates <?php echo ($_POST['datefrom']!="mm/dd/yy") ? "From : " .date_format(date_create($_POST['datefrom']),"m/d/Y"): "mm/dd/yy" ?> <?php echo ($_POST['dateto']!="mm/dd/yy") ? "To : " .date_format(date_create($_POST['dateto']),"m/d/Y") : "mm/dd/yy" ?></p></div> 
     <center>
         <table class="table table-bordered table-hover" style="font-size: 10px; width: 700px;" >
         <thead>

@@ -16,7 +16,6 @@
                 background-attachment: fixed;
                 background-size: 100% 100%;
             }
-
             .container{
                 margin:50px 0% 0px 550px;
             }
@@ -26,28 +25,31 @@
             }
         </style>
 
-    </head>
-    <body>
-        <form action="guardar.php" method="post" class = 'was-validated'>        
-            <div class="container">
-                <div class="card" style="width: 20rem;">
-                    <div class="card-header">
-                        <h1 style="text-align: center;color:black;">INGRESE SUS DATOS</h1>
-                    </div>
-                    <div class="card-body">
-                            <label for="validationDefault01">Usuario</label>
-                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario" required>
-                        
-                            <br>
-                            <label for="validationDefault02">Contraseña</label>
-                            <input type="text" class="form-control"  id="contraseña" name="contraseña" placeholder="Contraseña" required>
-                        
-                            <br>
-                            <button type="submit" class="btn btn-primary" name="btnLogin"> 
-                            <i class="fas fa-arrow-alt-circle-right"></i>  &nbsp;&nbsp;<b>Crear Usuario</b></button>
-                    </div>
+</head>
+<body>
+
+    <form action="guardar.php" method="get" class = 'was-validated'>
+
+                
+        <div class="container">
+            <div class="card" style="width: 25rem;">
+                <div class="card-header">
+                    <h1 style="text-align: center;color:black;">INGRESE SUS DATOS</h1>
+                </div>
+                <div class="card-body">
+                    <label for="validationDefault01">Usuario</label>
+                    <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario" required>
+                
+                    <br>
+                    <label for="validationDefault02">Contraseña</label>
+                    <input type="text" class="form-control"  id="contraseña" name="contraseña" placeholder="Contraseña" required>
+                
+                    <br>
+                    <button type="submit" class="btn btn-primary" name="btnLogin"> 
+                    <i class="fas fa-arrow-alt-circle-right"></i>  &nbsp;&nbsp;<b>Crear Usuario</b></button>
                 </div>
             </div>
-        </form>
-    </body>
+        </div>
+    </form>
+</body>
 </html>

@@ -16,9 +16,7 @@
 				  <thead>
 				  	<tr>
 				  		<!-- <th>No.</th> -->
-				  		<th>
-				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
-				  		 Autonumeración</th> 
+				  		<th>Autonumeración</th> 
 				  		  <th>Key</th>
 				  		 <th width="10%" align="center">Action</th>
 				  	</tr>	

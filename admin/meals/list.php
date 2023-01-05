@@ -64,14 +64,12 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button class="close" data-dismiss="modal" type=
-                                    "button">x</button>
+                                    <button class="close" data-dismiss="modal" type="button">x</button>
 
                                     <h4 class="modal-title" id="myModalLabel">Imagen.</h4>
                                 </div>
 
-                                <form action="<?php echo web_root; ?>admin/meals/controller.php?action=photos" enctype="multipart/form-data" method=
-                                "post">
+                                <form action="<?php echo web_root; ?>admin/meals/controller.php?action=photos" enctype="multipart/form-data" method="post">
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <div class="rows">
@@ -79,11 +77,9 @@
                                                     <div class="rows">
                                                         <div class="col-md-8"> 
                                                             <input class="mealid" type="hidden" name="mealid" id="mealid" value="">
-                                                              <input name="MAX_FILE_SIZE" type="hidden" 
-                                                              value="1000000"> 
+                                                              <input name="MAX_FILE_SIZE" type="hidden" value="1000000"> 
                                                               <input id="photo" name="photo" type="file">
                                                         </div>
-
                                                         <div class="col-md-4"></div>
                                                     </div>
                                                 </div>
@@ -92,13 +88,11 @@
                                     </div>
 
                                     <div class="modal-footer">
-                                        <button class="btn btn-default" data-dismiss="modal" type=
-                                        "button">Cerrar</button> <button class="btn btn-primary"
-                                        name="savephoto" type="submit">Subir foto</button>
+                                        <button class="btn btn-default" data-dismiss="modal" type="button">Cerrar</button> <button class="btn btn-primary" name="savephoto" type="submit">Subir foto</button>
                                     </div>
                                 </form>
-                            </div><!-- /.modal-content
-                        </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->  
+                            </div>
+                        </div>
+                    </div>
 
                 

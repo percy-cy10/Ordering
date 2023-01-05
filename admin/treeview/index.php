@@ -33,17 +33,17 @@ function createTreeView($parent, $menu) {
        foreach ($menu['parents'][$parent] as $itemId) {
           if(!isset($menu['parents'][$itemId])) {
              $html .= "&amp;amp;lt;li&amp;amp;gt;&amp;amp;lt;label for='subfolder2'
-&amp;amp;gt;&amp;amp;lt;a href='".$menu['items'][$itemId]['DISCOUNTSENIOR']."'&amp;amp;gt;"
-.$menu['items'][$itemId]['OVERALLTOTAL']."&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/label&amp;amp;gt;
- &amp;amp;lt;input type='checkbox' name='subfolder2'/&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;";
+            &amp;amp;gt;&amp;amp;lt;a href='".$menu['items'][$itemId]['DISCOUNTSENIOR']."'&amp;amp;gt;"
+            .$menu['items'][$itemId]['OVERALLTOTAL']."&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/label&amp;amp;gt;
+            &amp;amp;lt;input type='checkbox' name='subfolder2'/&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;";
           }
           if(isset($menu['parents'][$itemId])) {
              $html .= "
              &amp;amp;lt;li&amp;amp;gt;&amp;amp;lt;label for='subfolder2'&amp;amp;gt;&amp;amp;
-lt;a href='".$menu['items'][$itemId]['DISCOUNTSENIOR']."'&amp;amp;gt;".$menu['items'][$itemId]['OVERALLTOTAL']
-."&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/label&amp;amp;gt; &amp;amp;lt;input type='checkbox' name='subfolder2'/
-&amp;amp;
-gt;";
+            lt;a href='".$menu['items'][$itemId]['DISCOUNTSENIOR']."'&amp;amp;gt;".$menu['items'][$itemId]['OVERALLTOTAL']
+            ."&amp;amp;lt;/a&amp;amp;gt;&amp;amp;lt;/label&amp;amp;gt; &amp;amp;lt;input type='checkbox' name='subfolder2'/
+            &amp;amp;
+            gt;";
              $html .= createTreeView($itemId, $menu);
              $html .= "&amp;amp;lt;/li&amp;amp;gt;";
           }
