@@ -52,8 +52,7 @@
 	<div class="page-header"><h1 align="center">Foodsy</h1>
 	<div id="wrap">
 	<h3 align="center">Reporte de ventas</h3>
-    <p  style="font-size:15px;text-align: center;">
-    Fechas Inclusivas <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "mm/dd/yy" ?> <?php echo isset($_POST['date_pickerfrom']) ? "To : " .$_POST['date_pickerto'] : "mm/dd/yy" ?></p></div>
+    <p  style="font-size:15px;text-align: center;">Fechas Inclusivas <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "mm/dd/yy" ?> <?php echo isset($_POST['date_pickerfrom']) ? "To : " .$_POST['date_pickerto'] : "mm/dd/yy" ?></p></div>
 		<div class="wrap-content">
 			<label class="item" >Fecha de:</label>
 			<input id="datefrom" class="item date_pickerfrom validate_date" type="" name="date_pickerfrom" autocomplete="off" placeholder="mm/dd/yyyy" required>
@@ -153,7 +152,7 @@
 					<input type="hidden" name="datefrom" value="<?php echo isset($_POST['date_pickerfrom']) ? $_POST['date_pickerfrom'] : "mm/dd/yy" ?>">
 					<input type="hidden" name="dateto" value="<?php echo isset($_POST['date_pickerto']) ? $_POST['date_pickerto'] : "mm/dd/yy" ?>">
 			
-				<button  type="submit"  class="btn btn-primary"><i class="fa fa-print"></i> Print Report</button>
+				<button  type="submit"  class="btn btn-primary"><i class="fa fa-print"></i> Imprimir reporte</button>
 		     	</form>
 	 			</div>
 	 		</div>

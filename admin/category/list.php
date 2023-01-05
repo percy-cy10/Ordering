@@ -16,9 +16,7 @@
 				  <thead>
 				  	<tr>
 				  		<!-- <th>No.</th> -->
-				  		<th style="font-size: 15px;">
-				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
-				  		 Categoria</th> 
+				  		<th style="font-size: 15px;">Categoria</th> 
 				  		 <th width="25%" style="text-align: center; font-size: 15px;">Accion</th>
 				  	</tr>	
 				  </thead> 

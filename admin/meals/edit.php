@@ -22,17 +22,14 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
           </div>
           <!-- /.col-lg-12 -->
        </div>
-       <form class="form-horizontal span6" action="controller.php?action=edit" method="POST"  />
- 
+       <form class="form-horizontal span6" action="controller.php?action=edit" method="POST"></form>
              <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "MEALS">Comida:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="MEALS">Comida:</label>
 
                       <div class="col-md-8">
                             <input type="hidden" name="MEALID" value="<?php echo $singlemeal->MEALID;  ?>">
-                            <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder=
-                            "Meal" type="text" value="<?php echo $singlemeal->MEALS ?>" required>
+                            <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Meal" type="text" value="<?php echo $singlemeal->MEALS ?>" required>
                       </div>
                     </div>
                   </div> 
@@ -44,7 +41,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                       <div class="col-md-8">
                        <select class="form-control input-lg" name="CATEGORYID" id="CATEGORYID">
-                          <option value="None">Select Category</option>
+                          <option value="None">selecciona una categoría</option>
                           <?php
                             //Statement
 
@@ -68,12 +65,9 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                   <div class="form-group">
                     <div class="col-md-8"> 
-                       <label style="font-size: 20px;" class="col-md-4 control-label" for=
-                      "PRICE">Price:</label>
-
+                       <label style="font-size: 20px;" class="col-md-4 control-label" for="PRICE">Precio:</label>
                       <div class="col-md-8">
-                         <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder=
-                            "&#8369 Price " type="text" value="<?php echo $singlemeal->PRICE?>" required>
+                         <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder="&#8369 Price " type="text" value="<?php echo $singlemeal->PRICE?>" required>
                       </div>
                     </div>
                   </div>
@@ -86,7 +80,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
                       <label class="col-md-4 control-label" for="idno"></label>
 
                       <div class="col-md-8">
-                               <button style="width: 100%;" class="btn  btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                               <button style="width: 100%;" class="btn  btn-primary btn-lg" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                   </div>
                     </div>
                   </div> 

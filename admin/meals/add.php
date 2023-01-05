@@ -17,7 +17,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                  <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="MEALS">Meal:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="MEALS">Comida:</label>
                       <div class="col-md-8">
                         <input class="form-control input-lg" id="MEALS" name="MEALS" placeholder="Input Meal Description" type="text" value="" required>
                       </div>
@@ -26,7 +26,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CATEGORYID">Category:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" for="CATEGORYID">categoría:</label>
 
                       <div class="col-md-8">
                        <select class="form-control input-lg" name="CATEGORYID" id="CATEGORYID">
@@ -48,7 +48,7 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
 
                   <div class="form-group">
                     <div class="col-md-8"> 
-                       <label style="font-size: 20px;" class="col-md-4 control-label" for="PRICE">Price:</label>
+                       <label style="font-size: 20px;" class="col-md-4 control-label" for="PRICE">Precio:</label>
 
                       <div class="col-md-8">
                          <input class="form-control input-lg" id="PRICE"  step="any" name="PRICE" placeholder=
@@ -60,44 +60,38 @@ if(!$_SESSION['ADMIN_ROLE']=='Administrator'){
   
                   <div class="form-group">
                     <div class="col-md-8">
-                      <label style="font-size: 20px;" class="col-md-4 control-label" style="text-align: right;" for="image">Upload Image:</label>
+                      <label style="font-size: 20px;" class="col-md-4 control-label" style="text-align: right;" for="image">Subir Imagen:</label>
                       <div style="padding-top: 10px;" class="col-md-8">
                       <input style="font-size: 15px;" type="file" name="image" value="" id="image" required/>
                       </div>
                     </div>
                   </div>
             
-             <div class="form-group">
+            <div class="form-group">
                     <div class="col-md-8">
-                      <label class="col-md-4 control-label" for=
-                      "idno"></label>
-
+                      <label class="col-md-4 control-label" for="idno"></label>
                       <div class="col-md-8">
-                        <button style="width: 100%;font-size: 15px;" class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Save</button>
+                        <button style="width: 100%;font-size: 15px;" class="btn  btn-primary btn-sm" name="save" type="submit" ><span class="fa fa-save fw-fa"></span> Guardar</button>
                       </div>
                     </div>
                   </div>
 
-               
         <div class="form-group">
                 <div class="rows">
                   <div class="col-md-6">
                     <label class="col-md-6 control-label" for="otherperson"></label>
 
                     <div class="col-md-6">
-                   
+                  
                     </div>
                   </div>
 
                   <div class="col-md-6" align="right">
-                   
+                  
 
-                   </div>
+                  </div>
                   
               </div>
               </div>
           
         </form>
-      
-
-       

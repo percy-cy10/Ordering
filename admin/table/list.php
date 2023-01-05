@@ -16,9 +16,7 @@
 				  <thead>
 				  	<tr>
 				  		<!-- <th>No.</th> -->
-				  		<th style="font-size: 15px; text-align: center;" width="10%">
-				  		 <!-- <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');">  -->
-				  		 Numero Mesa</th>
+				  		<th style="font-size: 15px; text-align: center;" width="10%"> Numero Mesa</th>
 				  		 <th style="font-size: 15px;" width="20%">Cliente</th> 
 				  		 <th style="font-size: 15px;" width="11%">Tiempo</th>
 				  		 <th style="font-size: 15px; text-align: center;" width="10%">Estado</th>
@@ -47,7 +45,7 @@
 				  			
 				  		}elseif ($result->STATUS=='Available') {
 				  			# code...
-				  			$btn = "Reservar";
+				  			$btn = "Reservado";
 				  			$reservebtn = "Reserve";
 				  			$titlebtn = "Cancel";
 				  			$resdisable = "";
@@ -75,9 +73,9 @@
 				  			echo  '<td style="font-size:20px;">'.$time.'</td>';
 				  			echo '<td style="font-size:20px; text-align:center;">' . $result->STATUS.'</td>';
  
-				  		echo '<td align="center"><a title="Edit" href="index.php?view=edit&id='.$result->TABLEID.'" class="btn btn-primary btn-s">  <span class="fa fa-pencil fw-fa"> Edit table No.</a>
+				  		echo '<td align="center"><a title="Edit" href="index.php?view=edit&id='.$result->TABLEID.'" class="btn btn-primary btn-s">  <span class="fa fa-pencil fw-fa"> Editar N° de Mesa</a>
 				  			<a title="'.$reservebtn.'" href="'.$url.'" class="btn btn-success btn-s  click_reserve" '.$disable.'>  <span class="fa fa-bookmark fw-fa"> '.$btn.'</a>
-				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->TABLEID.'" class="btn btn-danger btn-s  "'.$disable.''.$resdisable.'>  <span class="fa  fa-trash-o fw-fa " > Remove</a></td>';
+				  		     <a title="Remove" href="controller.php?action=delete&id='.$result->TABLEID.'" class="btn btn-danger btn-s  "'.$disable.''.$resdisable.'>  <span class="fa  fa-trash-o fw-fa " >Borrar</a></td>';
 				  		// echo '<td></td>';
 				  		     // Reserve Button
 				  		//echo '<a title="'.$reservebtn.'" href="'.$url.'" class="btn btn-success btn-s  click_reserve" '.$disable.'>  <span class="fa fa-bookmark fw-fa"> '.$btn.'</a>';

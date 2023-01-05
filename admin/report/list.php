@@ -70,7 +70,7 @@
 		</div>
 		<div class="wrap-content"> 
 			<label class="item" ></label>
-			<button class="item btn btn-primary btn-sm submit" type="submit" name="submit">View Report</button>   
+			<button class="item btn btn-primary btn-sm submit" type="submit" name="submit">Vista del informe</button>   
 		</div> 
     <div id="validaterecord"></div>
    
@@ -93,7 +93,7 @@
 				<td>Numero de Orden</td>
 				<td style="width: 130px;">Cuenta total</td>
 				<td style="width: 140px;">Descuento (20%)</td>
-                <td>Senior ID</td>
+                <td>Tercera Edad ID</td>
 				<td style="width: 130px;">Cantidad total</td>
 			</tr>
 
