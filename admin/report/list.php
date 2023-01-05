@@ -59,14 +59,14 @@
 	<div id="wrap">
 	<h3 align="center">Reporte de ventas</h3>
     <p  style="font-size:15px;text-align: center;">
-    Fechas: <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "Month-Day-Year" ?> | <?php echo isset($_POST['date_pickerfrom']) ? " To : " .$_POST['date_pickerto'] : "Month-Day-Year" ?></p></div>
+    Fechas: <?php echo isset($_POST['date_pickerfrom']) ? "From : " .$_POST['date_pickerfrom'] : "Mes-Día-Año" ?> | <?php echo isset($_POST['date_pickerfrom']) ? " To : " .$_POST['date_pickerto'] : "Mes-Día-Año" ?></p></div>
 		<div class="wrap-content">
 			<label class="item" >Fecha de:</label>
-			<input id="datefrom" class="item date_pickerfrom validate_date" type="" name="date_pickerfrom" autocomplete="off" placeholder="Month-Day-Year" required>
+			<input id="datefrom" class="item date_pickerfrom validate_date" type="" name="date_pickerfrom" autocomplete="off" placeholder="Mes-Día-Año" required>
 		</div>
 		<div class="wrap-content">
 			<label class="item" >Fecha hasta:</label>
-			<input id="dateto" class="item date_pickerto validate_date" type="" name="date_pickerto" autocomplete="off" placeholder="Month-Day-Year" required> 
+			<input id="dateto" class="item date_pickerto validate_date" type="" name="date_pickerto" autocomplete="off" placeholder="Mes-Día-Año" required> 
 		</div>
 		<div class="wrap-content"> 
 			<label class="item" ></label>
@@ -128,10 +128,10 @@
 				   foreach ($cur as $result) { 
 				   	echo '<tr style="font-size:15px; background-color:#F0F8FF;"  data-tt-id="1'.$result->ORDERNO.'">';
 				   	echo '<td>'.$result->ORDERNO.'</td>';
-				   	echo '<td>&#8369; '.number_format($result->OVERALLTOTAL,2).'</td>';
-				   	echo '<td>&#8369; '.number_format($result->DISCOUNTSENIOR,2).'</td>';
+				   	echo '<td>s/; '.number_format($result->OVERALLTOTAL,2).'</td>';
+				   	echo '<td>s/; '.number_format($result->DISCOUNTSENIOR,2).'</td>';
 				   	echo '<td>'.$result->SENIORID.'</td>';
-				   	echo '<td>&#8369; '.number_format($result->TOTALPAYMENT,2).'</td>';  
+				   	echo '<td>s/; '.number_format($result->TOTALPAYMENT,2).'</td>';  
 				  echo '</tr>';
 
 				// 	# code...
@@ -161,21 +161,21 @@
 						  foreach ($row as $res) {
 						  		echo '<tr style="font-size:13px;" data-tt-id="2" data-tt-parent-id="1'.$result->ORDERNO.'">';
 							   	echo '<td style="font-size:11px;" colspan="2">'.$res->DESCRIPTION.'</td>';
-							   	echo '<td style="font-size:13px;">&#8369; '.number_format($res->PRICE,2).'</td>';
+							   	echo '<td style="font-size:13px;">s/; '.number_format($res->PRICE,2).'</td>';
 							   	echo '<td style="text-align:center; font-size:13px;">'.$res->QUANTITY.'</td>';
-							   	echo '<td style="font-size:13px;">&#8369; '.number_format($res->SUBTOTAL,2).'</td>';
+							   	echo '<td style="font-size:13px;">s/; '.number_format($res->SUBTOTAL,2).'</td>';
 							   	echo '</tr>';
 						  }
 					// echo '</table>';
 				  }  
 				}else{
 					echo '<tr style="text-align:center;font-size:15px;">
-							<td  colspan="4" >No Records Available</td> 
+							<td  colspan="4" >No Hay Registros Disponibles</td> 
 						</tr>';
 				}
 				}else{
 					echo '<tr style="text-align:center;font-size:15px;">
-							<td  colspan="4" >Please enter the correct date. </td> 
+							<td  colspan="4" >Porfavor Ingrese Bien los Datos</td> 
 						</tr>';
 				}
 				
@@ -196,9 +196,9 @@
 		<tfoot>
 			<tr style="font-size: 15px;">
 				<td align="center" style="font-weight: bold;">TOTAL</td>
-				<td width="100" style="background-color: #E74C3C;color:#fff; text-align: center; font-weight: bold;">&#8369; <?php echo number_format($total,2);?></td>
-				<td width="100" style="background-color: #E74C3C;color:#fff; text-align: center; font-weight: bold;">&#8369; <?php echo number_format($qty,2) ;?></td>
-				<td width="100" style="background-color: #E74C3C; color:#fff; text-align: center; font-weight: bold;">&#8369; <?php echo number_format($price,2) ;?></td>
+				<td width="100" style="background-color: #E74C3C;color:#fff; text-align: center; font-weight: bold;">s/ <?php echo number_format($total,2);?></td>
+				<td width="100" style="background-color: #E74C3C;color:#fff; text-align: center; font-weight: bold;">s/ <?php echo number_format($qty,2) ;?></td>
+				<td width="100" style="background-color: #E74C3C; color:#fff; text-align: center; font-weight: bold;">s/ <?php echo number_format($price,2) ;?></td>
 			</tr>
 		</tfoot>
 		</table>   
