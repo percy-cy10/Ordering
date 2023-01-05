@@ -12,7 +12,6 @@ require_once '../include/initialize.php';
 // unset( $_SESSION['USERNAME'] );
 // unset( $_SESSION['PASS'] );
 // unset( $_SESSION['ROLE'] );
- 
 
 unset($_SESSION['ADMIN_USERID']);  
 unset($_SESSION['ADMIN_FULLNAME']); 
